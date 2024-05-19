@@ -1,1 +1,74 @@
-{"sections":{"rich_text_k9Bewe":{"type":"rich-text","blocks":{"heading_fdy3Y4":{"type":"heading","settings":{"heading":"<h3>Oops! This Page Has Vanished Into Thin Air... Just Like Your Skin Troubles with Gle Skincare!<\/h3>","heading_size":"h1"}},"text_Nktamz":{"type":"text","settings":{"text":"<p>But don't worry, while we can't find this page (it might be enjoying a spa day), we can certainly help you find the perfect skincare routine.<\/p>"}}},"block_order":["heading_fdy3Y4","text_Nktamz"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":52}},"main":{"type":"main-404","disabled":true,"settings":{}},"featured_collection_iYcgFy":{"type":"featured-collection","settings":{"title":"Featured collection","heading_size":"h1","heading_alignment":"center","description":"","show_description":false,"description_style":"body","collection":"","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"enable_view_more":true,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["rich_text_k9Bewe","main","featured_collection_iYcgFy"]}
+{
+  "sections": {
+    "rich_text_k9Bewe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fdy3Y4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>Oops! This Page Has Vanished Into Thin Air... <\/h3>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Nktamz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>But don't worry, while we can't find this page (it might be enjoying a spa day), we can certainly help you find the perfect skincare routine.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fdy3Y4",
+        "text_Nktamz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "featured_collection_iYcgFy": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_view_more": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_k9Bewe",
+    "main",
+    "featured_collection_iYcgFy"
+  ]
+}
