@@ -3,6 +3,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "collapsible_tab_6FUNJ4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "apple",
+            "content": "<p>Lorem ipsum<\/p>",
+            "page": ""
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -49,6 +58,7 @@
         }
       },
       "block_order": [
+        "collapsible_tab_6FUNJ4",
         "title",
         "0203eefc-c525-470b-a804-652efe253115",
         "price",
