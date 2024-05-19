@@ -1,0 +1,50 @@
+<div class="recommendation-section">
+  <div class="doctor-image">
+    <img src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/dermatologist-gle.png?v=1712771349" alt="Imagen" alt="Doctor's Image" width="100px" height="100px">
+  </div>
+  <div class="recommendation-text">
+    <p class="dr__text" >We strongly recommend a 90-day supply (2 creams minimum), as studies indicate that at least 45 days are required to reduce expression lines and 90 days to repair skin cell tissues, visibly diminishing wrinkles.</p>
+    <p class="dr__name" >Dr. Elizabeth Chen</p>
+
+  </div>
+</div>
+
+<style>
+  .recommendation-section {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.doctor-image {
+  width: 50px; /* Ajusta el ancho según tus necesidades */
+  height: 50px; /* Ajusta la altura según tus necesidades */
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.doctor-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.recommendation-text {
+  width: calc(100% - 80px); /* Resta el ancho de la imagen al 100% para el texto */
+  display: flex;
+   flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.dr__text {
+  width: 100%;
+margin: 0;
+}
+.dr__name {
+margin: 0;
+font-weight: bold;
+}
+</style>

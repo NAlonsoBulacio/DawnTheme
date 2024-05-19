@@ -1,0 +1,132 @@
+{% style %}
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: #ececec;
+  overflow: overflow-hidden;
+}
+
+  @media screen and (min-width: 1200px) {
+  .container {
+    margin-left: 700px;
+    margin-right: 300px;
+  }
+ .subtitle {
+  font-weight: bold;
+  font-size: 4rem;
+}
+      .image-container {
+  margin-left: 200px;
+}
+    .guarantee {
+  font-size: 26px;
+}
+
+.money-back {
+  font-size: 26px;
+}
+    .image-container {
+  flex: 1;
+}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .container {
+    padding-left: 150px; /* La mitad de 300px */
+    padding-right: 150px; /* La mitad de 300px */
+  }
+ .subtitle {
+  font-weight: bold;
+  font-size: 4rem;
+}
+  .image-container {
+  margin-left: 200px;
+}
+  .guarantee {
+  font-size: 26px;
+}
+
+.money-back {
+  font-size: 26px;
+}
+  .image-container {
+  flex: 1;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .section-container {
+    width:100%;
+      overflow: hidden;
+height: 200px;
+}
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+   .subtitle {
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+    .image-container {
+  margin-left: 10px;
+      width: 60%;
+        flex: 2;
+}
+  .text-container {
+  flex: 1;
+ margin-right: -10px;
+}
+  .guarantee {
+  font-size: 16px;
+}
+  .money-back {
+  font-size: 14px;
+}
+}
+
+
+.text-container {
+  flex: 2;
+  background-color: #ececec;
+  padding: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.subtitle {
+
+}
+
+{% endstyle %}
+
+
+
+<div class="section-container">
+  <div class="image-container">
+    <img src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/Dr-Banner.png?v=1712785854" alt="Imagen" class="image" width="400px" height="400px">
+  </div>
+  <div class="text-container">
+    <div class="subtitle">Dr. Elizabeth Chen</div>
+    <div class="guarantee">45 Day Guarantee</div>
+    <div class="money-back">Guaranteed results or your money back</div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Dr Banner",
+      "tag": "section",
+  "class": "section",
+    "settings": [],
+     "presets": [
+    {
+      "name": "Dr Banner"
+    }
+  ]
+  }
+{% endschema %}

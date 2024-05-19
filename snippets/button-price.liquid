@@ -1,0 +1,97 @@
+{% comment %}
+    Renders a list of product's price (regular, sale)
+.product__contains{
+  margin-left: -20px;
+  font-size: 10px;
+}
+.ml__product{
+  font-weight: normal;
+}
+    Accepts:
+    - product: {Object} Product Liquid object (optional)
+    - use_variant: {Boolean} Renders selected or first variant price instead of overall product pricing (optional)
+    - show_badges: {Boolean} Renders 'Sale' and 'Sold Out' tags if the product matches the condition (optional)
+    - price_class: {String} Adds a price class to the price element (optional)
+
+    Usage:
+    {% render 'price', product: product %}
+{% endcomment %}
+{%- liquid
+  if use_variant
+    assign target = product.selected_or_first_available_variant
+  else
+    assign target = product
+  endif
+
+  assign compare_at_price = target.compare_at_price
+  assign price = target.price | default: 1999
+  assign available = target.available | default: false
+  assign money_price = price | money
+  if settings.currency_code_enabled
+    assign money_price = price | money_with_currency
+  endif
+
+  if target == product and product.price_varies
+    assign money_price = 'products.product.price.from_price_html' | t: price: money_price
+    assign money_price = product.price_min | money_with_currency
+  endif
+-%}
+
+<div class="price
+  {%- if price_class %} {{ price_class }}{% endif -%}
+  {%- if available == false %} price--sold-out {% endif -%}
+  {%- if compare_at_price > price %} price--on-sale {% endif -%}
+  {%- if product.price_varies == false and product.compare_at_price_varies %} price--no-compare{% endif -%}
+  {%- if show_badges %} price--show-badge{% endif -%}">
+
+  {% if show_contains %}
+  {% if template == 'product.landing-product' %}
+   <div id="variant-title ">
+    {% if money_price == '$39.00' %}
+      <ul class="ul__contains">
+       <li class="product__contains" >X1 Anti-Aging Repair Cream <span class="ml__product">4fl oz 118ml</span></li>
+      </ul>
+     {% elsif money_price == '$119.00' %}
+      <ul class="ul__contains">
+       <li class="product__contains">X2 Anti-Aging Repair Cream <span class="ml__product">4fl oz 118ml</span></li>
+       <li class="product__contains">X2 Serum for Dark Circles <span class="ml__product">0.5fl oz 15ml</span></li>
+       <li class="product__contains">Gift VIP Rejuvenation Advisor (Direct Access)</li>
+      </ul>
+     {% elsif money_price == '$170.00' %}
+      <ul class="ul__contains">
+       <li class="product__contains">X3 Anti-Aging Repair Cream <span class="ml__product">4fl oz 118ml</span></li>
+       <li class="product__contains">X3 Serum for Dark Circles <span class="ml__product">0.5fl oz 15ml</span></li>
+       <li class="product__contains">Gift VIP Rejuvenation Advisor (Direct Access)</li>
+      </ul>
+    {% endif %}
+   </div>
+  {% else %}
+       <div id="variant-title product__contains">
+    {% if money_price == '$29.00' %}
+      <ul class="ul__contains">
+       <li class="product__contains" >Anti-Aging Repair Cream <span class="ml__product">4fl oz 118ml</span></li>
+       <li class="product__contains">Serum for Dark Circles<span class="ml__product"> 0.5fl oz 15ml</span></li>
+               <li class="product__contains">Gift VIP Rejuvenation Advisor (Direct Access)</li>
+      </ul>
+     {% elsif money_price == '$99.00' %}
+      <ul class="ul__contains">
+       <li class="product__contains">Anti-Aging Repair Cream <span class="ml__product">4fl oz 118ml</span></li>
+       <li class="product__contains">Serum for Dark Circles <span class="ml__product">0.5fl oz 15ml</span></li>
+       <li class="product__contains">Night Cream with Retinol <span class="ml__product">2fl oz 60ml</span></li>
+       <li class="product__contains">Face Massager</li>
+       <li class="product__contains">Gift VIP Rejuvenation Advisor (Direct Access)</li>
+      </ul>
+    {% elsif money_price == '$59.00' %}
+      <ul class="ul__contains">
+       <li class="product__contains">Anti-Aging Repair Cream <span class="ml__product">4fl oz 118ml</span></li>
+       <li class="product__contains">Serum for Dark Circles <span class="ml__product">0.5fl oz 15ml</span></li>
+       <li class="product__contains">Night Cream with Retinol <span class="ml__product">2fl oz 60ml</span></li>
+       <li class="product__contains">Face Massager</li>
+       <li class="product__contains">Gift VIP Rejuvenation Advisor (Direct Access)</li>
+      </ul>
+    {% endif %}
+   </div>
+     {% endif %}
+  {% endif %}
+</div>
+

@@ -1,0 +1,132 @@
+/* CSS definition for functionality */
+.responsive-tabs {
+  overflow: overlay;
+  width: 100%;
+}
+
+.responsive-tabs>input {
+  display: none;
+}
+
+.responsive-tabs>input:checked+label+section {
+  display: block;
+}
+
+.responsive-tabs>label {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .responsive-tabs>label {
+    display: inline-block;
+  }
+}
+
+.responsive-tabs>section {
+  width: 100%;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .responsive-tabs>section {
+    float: left;
+  }
+}
+
+
+.responsive-tabs {
+  margin: 20px;
+}
+
+/* .responsive-tabs>input:checked+label {
+  background-color: white;
+} */
+
+@media (min-width: 768px) {
+  .responsive-tabs>label {
+    margin-left: -3px;
+  }
+}
+
+/* .responsive-tabs>section {
+  background-color: white;
+} */
+
+/* Classes for better presentation */
+.responsive-tabs {
+  overflow: overlay;
+}
+
+.responsive-tabs>input {
+  display: none;
+}
+
+.responsive-tabs>input:checked+label {
+  cursor: pointer;
+  border-bottom: 2px solid;
+  font-weight: 600;
+}
+
+.responsive-tabs>input:checked+label::after {
+  /* Flipping arrow
+					transform: translateY(-5px) rotateZ(180deg); */
+  opacity: 0;
+}
+
+.responsive-tabs>input:checked+label+section {
+  max-height: 10000px;
+}
+
+@media (min-width: 768px) {
+  .responsive-tabs>input:checked+label+section {
+    display: block;
+  }
+}
+
+.responsive-tabs>label {
+  position: relative;
+  cursor: pointer;
+  padding: 20px;
+  font-weight: normal;
+  margin: 0;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .responsive-tabs>label {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: -2px;
+  }
+}
+
+.responsive-tabs>label::after {
+  content: '';
+  position: absolute;
+  top: 26px;
+  right: 25px;
+  border-color: #4d4d4d transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px;
+}
+
+@media (min-width: 768px) {
+  .responsive-tabs>label::after {
+    content: none;
+  }
+}
+
+.responsive-tabs>section {
+  max-height: 0;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  border-top: 1px solid #c4c4c4;
+}
+
+@media (min-width: 768px) {
+  .responsive-tabs>section {
+    float: left;
+    display: none;
+  }
+}

@@ -1,0 +1,46 @@
+
+<section id="CustomItems">
+ {{ 'items-custom.css' | asset_url | stylesheet_tag }}
+<div class="items__container">
+  <div class="items__row">
+      <div class="item__">
+        <div class="image__items__container">
+         <img src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/microscopio.png?v=1712615097" alt="imf" class="item__image" width="70px" height="70px">
+        </div>
+        <p class="item__description" style="font-size: 14px; margin-top: 10px;">Dermatologically tested</p>
+    </div>
+      <div class="item__">
+        <div class="image__items__container">
+         <img src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/cabello.png?v=1712615098" alt="imf" class="item__image" width="70px" height="70px">
+        </div>
+        <p class="item__description" style="font-size: 14px; margin-top: 10px;">More than 120K customers have already rejuvenated their skin</p>
+    </div>
+      <div class="item__">
+        <div class="image__items__container">
+         <img src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/reconocimiento-de-estrellas.png?v=1712615098" alt="imf" width="70px" height="70px" class="item__image">
+       </div>
+       <p class="item__description" style="font-size: 14px; margin-top: 10px;">Money-back guarantee for up to 45 days</p>
+    </div>
+      <div class="item__">
+       <div class="image__items__container">
+        <img src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/brote.png?v=1712615097" alt="imf" class="item__image" width="70px" height="70px">
+      </div>
+       <p class="item__description" style="font-size: 14px; margin-top: 10px;">Ingredients with natural active principles</p>
+      </div>
+  </div>
+</div>
+</section>
+
+{% schema %}
+  {
+    "name": "Items Custom",
+      "tag": "section",
+  "class": "section",
+    "settings": [],
+     "presets": [
+    {
+      "name": "Items Custom"
+    }
+  ]
+  }
+{% endschema %}
