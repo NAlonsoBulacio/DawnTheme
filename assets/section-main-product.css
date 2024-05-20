@@ -1264,7 +1264,10 @@ a.product__text {
   color: rgba(var(--color-foreground));
 }
 
+.selected__variant {
+  background-color: #fff3e0;
+}
 
 .contain__option {
-   background-color: #fff3e0; 
+    
 }
