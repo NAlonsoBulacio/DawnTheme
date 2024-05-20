@@ -3434,7 +3434,7 @@ details-disclosure > details {
   max-width: 310px!important;
 }
 
-.selected-variant {
+.selected__variant {
   border: 2px solid #ff9800; /* Change this color to your preferred border color */
   background-color: #fff3e0; /* Change this color to your preferred background color */
   border-radius: 4px;
@@ -3442,6 +3442,6 @@ details-disclosure > details {
   transition: background-color 0.3s ease, border 0.3s ease;
 }
 
-.selected-variant .contain__option {
+.selected__variant .contain__option {
   font-weight: bold;
 }
