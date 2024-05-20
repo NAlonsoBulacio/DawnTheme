@@ -253,8 +253,6 @@ fieldset.product-form__input .form__label {
 }
 
 .contain__option {
-  display: flex;
-  flex-direction: column;
   gap: 10px; /* Ajusta este valor según el espacio vertical deseado */
 }
 
