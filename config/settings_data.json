@@ -141,10 +141,20 @@
               "color_scheme": "accent-2",
               "link": "shopify:\/\/collections\/shop"
             }
+          },
+          "announcement_dy7gFX": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "heading_size": "h5",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "announcement_dy7gFX"
         ],
         "settings": {
         }
