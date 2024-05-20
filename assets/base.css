@@ -3360,13 +3360,27 @@ details-disclosure > details {
 }
 
 /* Countdown start */
+
+.timer_countdown_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f39c12; /* Cambia el color según prefieras */
+  z-index: 9999; /* Asegúrate de que esté por encima de otros elementos */
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .timer_countdown {
-  margin-bottom: 20px!important;
+  margin: 0 auto; /* Centra el contenido dentro de la barra */
+  display: inline-block;
 }
 
 .timer_countdown .timer_label {
   font-size: 1.6rem;
-  width: 100%;
+  width: auto;
   margin: 0.5rem 0;
   text-align: center;
   display: inline-block;
