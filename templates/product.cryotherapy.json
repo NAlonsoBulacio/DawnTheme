@@ -3,15 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "collapsible_tab_6FUNJ4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "apple",
-            "content": "<p>Lorem ipsum<\/p>",
-            "page": ""
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -22,8 +13,14 @@
           "settings": {
           }
         },
+        "cb15cf33-90d0-473f-9a6b-5198e4824f19": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
@@ -51,22 +48,26 @@
             "benefits": "{{ product.metafields.my_fields.benefits }}"
           }
         },
-        "cb15cf33-90d0-473f-9a6b-5198e4824f19": {
-          "type": "description",
+        "collapsible_tab_6FUNJ4": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "Collapsible row",
+            "icon": "apple",
+            "content": "<p>Lorem ipsum<\/p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_tab_6FUNJ4",
         "title",
         "0203eefc-c525-470b-a804-652efe253115",
+        "cb15cf33-90d0-473f-9a6b-5198e4824f19",
         "price",
         "variant_picker",
         "cdfc8ada-677c-4465-aaf2-824f42cc7ec2",
         "buy_buttons",
         "benefits",
-        "cb15cf33-90d0-473f-9a6b-5198e4824f19"
+        "collapsible_tab_6FUNJ4"
       ],
       "settings": {
         "enable_sticky_info": false,
