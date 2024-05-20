@@ -221,12 +221,12 @@ fieldset.product-form__input .form__label {
 
 .product-form__input input[type='radio'] + label:hover {
   border-color: rgb(var(--color-foreground));
-     background-color: #a0b9cd5c;
+     background-color: #89adc9b2;
  
 }
 
 .product-form__input input[type='radio']:checked + label {
-   background-color: #89adc9b2; 
+   background-color: #a0b9cd5c; 
   color: var(--variant_pills_active_text_color);
 
   
