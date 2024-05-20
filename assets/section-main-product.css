@@ -252,6 +252,13 @@ fieldset.product-form__input .form__label {
     0 0 0 0.5rem rgba(var(--color-foreground), 0.55);
 }
 
+.contain__option {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Ajusta este valor según el espacio vertical deseado */
+}
+
+
 /* Fallback */
 .product-form__input input[type='radio'].focused + label,
 .no-js .shopify-payment-button__button [role="button"]:focus + label {
@@ -1268,10 +1275,3 @@ a.product__text {
   color: rgba(var(--color-foreground));
 }
 
-.selected__variant {
-  background-color: #fff3e0; 
-}
-
-.contain__option {
-    
-}
