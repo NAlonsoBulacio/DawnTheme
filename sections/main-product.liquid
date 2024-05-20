@@ -377,7 +377,7 @@
                                 style="border-radius: 4px;"
                                 {% if option.selected_value == value %}checked{% endif %}
                           >
-                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="selected-variant" style="{% if is_selected %} background-color: #fff3e0;{% endif %}">
+                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="selected-variant" style="{% if option.selected_value == value %}background-color: #fff3e0;{% endif %}">
                             {% liquid
                               assign current_variant = product_variants[forloop.index0]
                               assign amount_saved = current_variant.compare_at_price | minus: current_variant.price | times: 100 | divided_by: current_variant.compare_at_price | money_without_currency | replace: '0.', ''
