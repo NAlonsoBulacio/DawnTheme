@@ -3362,9 +3362,7 @@ details-disclosure > details {
 /* Countdown start */
 
 .timer_countdown_bar {
-  position: fixed;
-  top: 0;
-  left: 0;
+
   width: 100%;
   background-color: #f39c12; /* Cambia el color según prefieras */
   z-index: 9999; /* Asegúrate de que esté por encima de otros elementos */
