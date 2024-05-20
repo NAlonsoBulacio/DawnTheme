@@ -350,12 +350,19 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
-          {%- when 'variant_picker' -%}
+            
+                  {%- when 'variant_picker' -%}
             {% comment %}theme-check-disable UnusedAssign{% endcomment %}
             {% comment %} NEW {% endcomment %}
             {% assign product_variants = product.variants %}
             {% comment %} NEW {% endcomment %}
             {% comment %}theme-check-enable UnusedAssign{% endcomment %}
+            {%- assign ordered_variant_indices = '1,0,2' | split: ',' -%}
+            {%- assign ordered_variants = '' | split: '' -%}
+            {%- for index in ordered_variant_indices -%}
+              {%- assign variant_index = index | plus: 0 -%}
+              {%- assign ordered_variants = ordered_variants | concat: product_variants[variant_index] -%}
+            {%- endfor -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
@@ -367,22 +374,33 @@
                                 name="{{ option.name }}"
                                 value="{{ value | escape }}"
                                 form="{{ product_form_id }}"
+                                style="border-radius: 4px;"
                                 {% if option.selected_value == value %}checked{% endif %}
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                            {% comment %} {% liquid
+                            {% liquid
                               assign current_variant = product_variants[forloop.index0]
                               assign amount_saved = current_variant.compare_at_price | minus: current_variant.price | times: 100 | divided_by: current_variant.compare_at_price | money_without_currency | replace: '0.', ''
-
-                            %} {% endcomment %}
-                            {{ value }}
+                               %}
+                            <div class="contain__option" style= 'width: 100%; height: 45px; display: flex; align-items: center;'>
+                            <div style="text-align: left; font-weight: bold;">
+                              {{ value }} </br>
                             {% comment %} {%- if amount_saved != blank -%}<strong style="margin-left: 5px;">(Save {{ amount_saved }}%)</strong>{%- endif -%} {% endcomment %}
                             {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-                            {%- if forloop.index0 == 1 -%}
+                            {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+                              <span class="guarantee__span" style="text-align: left; font-weight: normal;">45 guaranteed days</span>
+                            </div>
+                              <div style="display: flex; flex-wrap: wrap;">
+                                <span style="width: 100%; font-weight: bold; font-size: 16px; margin-left: 5px;">
+                                  {{ current_variant.metafields.custom.variant_price }}</span>
+                                <span style="width: 100%; font-weight: normal; font-size: 16px; margin-left: 5px; text-decoration: line-through;"> {{ current_variant.metafields.custom.variant_compare_price }}</span>
+                              </div> 
+                            </div>
+                             {%- if forloop.index0 == 0 -%}
                               <img class="most-popular-icon" src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/most-popular-gle-icon.webp?v=1653667916" height="60" width="60" alt="Most popular icon">
                             {%- endif -%}
-                            {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
                           </label>
+                          
                         {%- endfor -%}
                       </fieldset>
                   {%- endfor -%}
