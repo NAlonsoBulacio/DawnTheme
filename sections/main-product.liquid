@@ -553,7 +553,7 @@
                 <img style="width: 100%; max-width: 350px; height: auto;" src="{{ settings.security_logos | image_url }}" alt="Security logos" loading="lazy" width="690" height="116" />
               </div>
             {% endif %}
-           {% comment %}{%- when 'countdown_timer' -%}{% endcomment %} 
+           {% comment %}{%- when 'countdown_timer' -%}
   {% if product.selected_or_first_available_variant.available == true %}
     <div class="timer_countdown_bar">
       <div class="timer_countdown hidden" id="countdown">
@@ -570,6 +570,7 @@
             </div>
             </div>
            {% endif %}
+                      {% endcomment %} 
           {%- when 'benefits' -%}
             {%- if block.settings.benefits != blank -%}
               <div class="product-discription-texts">
