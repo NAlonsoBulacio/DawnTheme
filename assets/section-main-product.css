@@ -224,8 +224,9 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio']:checked + label {
-  background-color: var(--variant_pills_active_background_color);
+   background-color: #fff3e0; 
   color: var(--variant_pills_active_text_color);
+  
 }
 
 @media screen and (forced-colors: active) {
@@ -1265,7 +1266,7 @@ a.product__text {
 }
 
 .selected__variant {
-  background-color: #fff3e0;
+  background-color: #fff3e0; 
 }
 
 .contain__option {
