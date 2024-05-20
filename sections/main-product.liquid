@@ -377,14 +377,14 @@
                                 style="border-radius: 4px;"
                                 {% if option.selected_value == value %}checked{% endif %}
                           >
-                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="selected__variant"> {% comment %}style="{% if option.selected_value == value %}background-color: #fff3e0;{% endif %}"{% endcomment %}
+                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="selected__variant">
                             {% liquid
                               assign current_variant = product_variants[forloop.index0]
                               assign amount_saved = current_variant.compare_at_price | minus: current_variant.price | times: 100 | divided_by: current_variant.compare_at_price | money_without_currency | replace: '0.', ''
                                %}
                             <div class="contain__option" style= 'width: 100%; height: 45px; display: flex; align-items: center;'>
                             <div style="text-align: left; font-weight: bold;">
-                              {{ value }} </br>
+                              {{ current_variant.metafields.custom.variant_pack }} </br>
                             {% comment %} {%- if amount_saved != blank -%}<strong style="margin-left: 5px;">(Save {{ amount_saved }}%)</strong>{%- endif -%} {% endcomment %}
                             {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
                             {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
