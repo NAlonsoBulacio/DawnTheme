@@ -252,7 +252,7 @@ fieldset.product-form__input .form__label {
     0 0 0 0.5rem rgba(var(--color-foreground), 0.55);
 }
 
-.contain__option {
+.contain__option__left {
   gap: 10px; /* Ajusta este valor según el espacio vertical deseado */
 }
 
