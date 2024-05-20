@@ -205,6 +205,7 @@ fieldset.product-form__input .form__label {
   position: relative;
   align-items: center;
   justify-content: space-between;
+   border-radius: 4px;
 }
 
 .product-form__input input[type='radio'] + label:before {
