@@ -531,7 +531,7 @@
                     {%- if block.settings.show_dynamic_checkout -%}
                     <div style="border-radius: 5px; overflow: hidden; background: rgb(95, 206, 135);"">
                      <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" style="margin-top: -5px; border: none; background: rgb(95, 206, 135); border-radius: 5px; font-size: 16px; font-weight: bold;" onclick="document.querySelector('.shopify-payment-button__more-options').click();">
-                       <div  style="display: flex;" >👉 COMENZAR - <p id="variant-price">{{ product.selected_or_first_available_variant.metafields.custom.variant_price }} </p> <p id="variant-price" style="margin-left: 5px; text-decoration: line-through;">{{ product.selected_or_first_available_variant.metafields.custom.variant_price }}</p></div>
+                       <div  style="display: flex;" ><p>👉 COMENZAR -</p> <p id="variant-price">{{ product.selected_or_first_available_variant.metafields.custom.variant_price }} </p> <p id="variant-price" style="margin-left: 5px; text-decoration: line-through;">{{ product.selected_or_first_available_variant.metafields.custom.variant_price }}</p></div>
                      </button>
                        <div style="display:none;">
                         {{ form | payment_button }}
