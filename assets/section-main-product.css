@@ -266,6 +266,7 @@ fieldset.product-form__input .form__label {
   border-radius: 50%;
   background-color: white; 
   margin-right: 10px;
+   border: 2px solid #4a4a4a;
 }
 
 /* Fallback */
