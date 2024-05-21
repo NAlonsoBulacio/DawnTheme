@@ -772,11 +772,7 @@ class VariantSelects extends HTMLElement {
   }
 
 
-  updateButton() {
-    const variantPriceElement = document.querySelector("#variant-price");
-    variantPriceElement.innerHTML = this.currentVariant.metafields.custom.variant_price;
-    
-  }
+
   
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
@@ -789,7 +785,11 @@ class VariantSelects extends HTMLElement {
       }).includes(false);
     });
   }
-
+  updateButton() {
+    const variantPriceElement = document.querySelector("#variant-price");
+    variantPriceElement.innerHTML = this.currentVariant.metafields.custom.variant_price;
+    
+  }
   updateMedia() {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
