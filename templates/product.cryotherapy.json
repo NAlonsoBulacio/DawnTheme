@@ -135,6 +135,16 @@
             "tag_text": ""
           }
         },
+        "video_Ax6Ebr": {
+          "type": "video",
+          "settings": {
+            "heading": "",
+            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6f549ba7ee574a2cb31d0432909ceb14.mp4",
+            "description": "",
+            "tag_text": ""
+          }
+        },
         "video_EdnpXQ": {
           "type": "video",
           "settings": {
@@ -156,6 +166,7 @@
       },
       "block_order": [
         "video_JfMyVR",
+        "video_Ax6Ebr",
         "video_EdnpXQ",
         "video_4A3tzK"
       ],
