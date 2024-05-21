@@ -788,9 +788,13 @@ class VariantSelects extends HTMLElement {
   
   updateButton() {
     const allPricesMetafieldData = JSON.parse(document.querySelector("#variant_metafield_price").textContent)
-    console.log(allPricesMetafieldData);
     const variantPriceElement = document.querySelector("#variant-price");
     variantPriceElement.innerHTML = allPricesMetafieldData[this.currentVariant.id];
+    
+    
+   const allComparePricesMetafieldData = JSON.parse(document.querySelector("#variant_metafield_compare_price").textContent)
+    const variantComparePriceElement = document.querySelector("#variant-compare-price");
+    variantComparePriceElement.innerHTML = allComparePricesMetafieldData[this.currentVariant.id];
     
   }
   updateMedia() {
