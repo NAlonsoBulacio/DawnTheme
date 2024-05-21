@@ -100,7 +100,7 @@
         "collapsible_tab_YhUFKE"
       ],
       "settings": {
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "gallery_layout": "thumbnail_slider",
         "media_size": "small",
         "mobile_thumbnails": "show",
