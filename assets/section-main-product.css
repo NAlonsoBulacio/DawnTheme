@@ -260,7 +260,7 @@ fieldset.product-form__input .form__label {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background-color: black; /* Cambia el color según tus necesidades */
+  background-color: #89adc9b2; /* Cambia el color según tus necesidades */
 }
 
 /* Fallback */
