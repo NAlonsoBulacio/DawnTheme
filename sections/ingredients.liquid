@@ -47,8 +47,7 @@
 </div>
 
 <style>
-  /* Estilos existentes */
-.ingredient-section {
+  .ingredient-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -56,14 +55,12 @@
   }
 
   .ingredient-card {
-    flex: 1;
+    flex: 1 1 calc(25% - 40px); /* Cada tarjeta ocupa 25% del ancho menos los márgenes */
     background-color: #f9f9f9;
     padding: 20px;
-    margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
+    margin: 20px; /* Espacio entre las tarjetas de ingredientes */
     box-sizing: border-box;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    margin-left: 20px;
-        margin-right: 20px;
   }
 
   @media (max-width: 768px) {
@@ -71,7 +68,7 @@
       flex-basis: calc(100% - 40px); /* Ajustar el tamaño de la tarjeta para ocupar toda la pantalla menos los márgenes */
     }
   }
-  
+
   .ingredient-info {
     flex: 1;
   }
@@ -94,7 +91,7 @@
     display: flex;
     justify-content: center; /* Centrar horizontalmente la imagen */
     align-items: center; /* Centrar verticalmente la imagen */
-    margin-top:10px;
+    margin-top: 10px;
   }
 
   .ingredient-image {
@@ -102,10 +99,7 @@
     height: auto;
     border-radius: 50%; /* Hacer la imagen circular */
   }
-
-  /* Estilos de tarjetas de ingredientes */
 </style>
-
 
 
 {% schema %}
