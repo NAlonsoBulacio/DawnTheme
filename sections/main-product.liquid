@@ -458,7 +458,7 @@
                 </div>
               </div>
             </noscript>
-            <div id="variant-price">HOLAAAAA</div>
+
           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form" data-cart-type="{{ settings.cart_type }}">
@@ -530,7 +530,9 @@
                     </button>
                     {%- if block.settings.show_dynamic_checkout -%}
                     <div style="border-radius: 5px; overflow: hidden; background: rgb(95, 206, 135);"">
-                     <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" style="margin-top: -5px; border: none; background: rgb(95, 206, 135); border-radius: 5px; font-size: 16px; font-weight: bold;" onclick="document.querySelector('.shopify-payment-button__more-options').click();">👉ADD TO BAG</button>
+                     <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" style="margin-top: -5px; border: none; background: rgb(95, 206, 135); border-radius: 5px; font-size: 16px; font-weight: bold;" onclick="document.querySelector('.shopify-payment-button__more-options').click();">
+                       <div id="variant-price">{{ product.selected_or_first_available_variant.metafields.custom.variant_price }}</div>
+                     </button>
                        <div style="display:none;">
                         {{ form | payment_button }}
                      </div>
