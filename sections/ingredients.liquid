@@ -40,6 +40,14 @@
 <style>
   /* Estilos existentes */
 
+  .ingredient-section {
+    display: flex;
+    flex-wrap: nowrap; /* Evita el salto de línea en pantallas grandes */
+    overflow-x: auto; /* Agrega desplazamiento horizontal en caso de que el contenido sea más ancho que el contenedor */
+    margin-bottom: 20px; /* Espacio entre la sección de ingredientes y otros elementos */
+    -webkit-overflow-scrolling: touch; /* Añade desplazamiento suave en dispositivos iOS */
+  }
+  
   .ingredient-info {
     flex: 1;
   }
