@@ -767,9 +767,16 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+      this.updateButton();
     }
   }
 
+
+  updateButton() {
+    const variantPriceElement = document.querySelector("#variant-price");
+    variantPriceElement.innerHTML = "Cambiamos el contenido";
+  }
+  
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
   }
