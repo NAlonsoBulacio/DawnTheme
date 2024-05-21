@@ -1,5 +1,20 @@
 {
   "sections": {
+    "main_ingredients_GyAz7r": {
+      "type": "main-ingredients",
+      "settings": {
+        "title": "Main Ingredients",
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ingredients_7qQDNL": {
+      "type": "ingredients",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -238,6 +253,8 @@
     }
   },
   "order": [
+    "main_ingredients_GyAz7r",
+    "ingredients_7qQDNL",
     "main",
     "items_benefits_fjDyjV",
     "percentage_p9dP8b",

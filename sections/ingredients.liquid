@@ -1,32 +1,75 @@
 <div class="ingredient-section">
-  <div class="ingredient-card">Ingredient 1</div>
-  <div class="ingredient-card">Ingredient 2</div>
-  <div class="ingredient-card">Ingredient 3</div>
-  <div class="ingredient-card">Ingredient 4</div>
+  <div class="ingredient-card">
+    <div class="ingredient-info">
+      <h3 class="ingredient-title">Aceite de Coco</h3>
+      <p class="ingredient-description">Hidratación natural para la piel y el cabello.</p>
+    </div>
+    <div class="ingredient-image-container">
+      <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/coco.jpg?v=1716324676" alt="Aceite de Coco" class="ingredient-image">
+    </div>
+  </div>
+  <div class="ingredient-card">
+    <div class="ingredient-info">
+      <h3 class="ingredient-title">Aceite de Coco</h3>
+      <p class="ingredient-description">Hidratación natural para la piel y el cabello.</p>
+    </div>
+    <div class="ingredient-image-container">
+      <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/coco.jpg?v=1716324676" alt="Aceite de Coco" class="ingredient-image">
+    </div>
+  </div>
+  <div class="ingredient-card">
+    <div class="ingredient-info">
+      <h3 class="ingredient-title">Aceite de Coco</h3>
+      <p class="ingredient-description">Hidratación natural para la piel y el cabello.</p>
+    </div>
+    <div class="ingredient-image-container">
+      <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/coco.jpg?v=1716324676" alt="Aceite de Coco" class="ingredient-image">
+    </div>
+  </div>
+  <div class="ingredient-card">
+    <div class="ingredient-info">
+      <h3 class="ingredient-title">Aceite de Coco</h3>
+      <p class="ingredient-description">Hidratación natural para la piel y el cabello.</p>
+    </div>
+    <div class="ingredient-image-container">
+      <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/coco.jpg?v=1716324676" alt="Aceite de Coco" class="ingredient-image">
+    </div>
+  </div>
 </div>
 
 <style>
-  .ingredient-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px; /* Espacio entre la sección de ingredientes y otros elementos */
-  }
+  /* Estilos existentes */
 
-  .ingredient-card {
+  .ingredient-info {
     flex: 1;
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
-    box-sizing: border-box;
   }
 
-  @media (max-width: 768px) {
-    .ingredient-card {
-      flex-basis: calc(100% - 40px); /* Ajustar el tamaño de la tarjeta para ocupar toda la pantalla menos los márgenes */
-    }
+  .ingredient-title {
+    margin-top: 0;
+    margin-bottom: 10px;
   }
+
+  .ingredient-description {
+    margin: 0;
+    color: #666;
+  }
+
+  .ingredient-image-container {
+    width: 120px; /* Ancho del contenedor de la imagen */
+    height: 120px; /* Alto del contenedor de la imagen */
+    border-radius: 50%; /* Hacer el contenedor circular */
+    overflow: hidden; /* Ocultar partes de la imagen que excedan los bordes del contenedor */
+  }
+
+  .ingredient-image {
+    width: 100%; /* Ajustar la imagen al contenedor */
+    height: auto;
+    border-radius: 50%; /* Hacer la imagen circular */
+  }
+
+  /* Estilos de tarjetas de ingredientes */
 </style>
+
 
 
 {% schema %}
