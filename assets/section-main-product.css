@@ -222,7 +222,11 @@ fieldset.product-form__input .form__label {
 .product-form__input input[type='radio'] + label:hover {
   border-color: rgb(var(--color-foreground));
      background-color: #89adc9b2;
- 
+}
+
+.product-form__input input[type='radio']:checked + circle__container {
+  border-color: rgb(var(--color-foreground));
+     background-color: #89adc9b2;
 }
 
 .product-form__input input[type='radio']:checked + label {
@@ -260,7 +264,7 @@ fieldset.product-form__input .form__label {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background-color: #89adc9b2; /* Cambia el color según tus necesidades */
+  background-color: #89adc9b2; 
 }
 
 /* Fallback */
