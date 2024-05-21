@@ -44,32 +44,27 @@
       <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/coco.jpg?v=1716324676" alt="Aceite de Coco" class="ingredient-image">
     </div>
   </div>
-    <div class="ingredient-card">
-    <div class="ingredient-info">
-      <h3 class="ingredient-title">Aceite de Coco</h3>
-      <p class="ingredient-description">Hidratación natural para la piel y el cabello.</p>
-    </div>
-    <div class="ingredient-image-container">
-      <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/coco.jpg?v=1716324676" alt="Aceite de Coco" class="ingredient-image">
-    </div>
-  </div>
 </div>
 
 <style>
-  .ingredient-section {
+  /* Estilos existentes */
+.ingredient-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-bottom: 20px; /* Espacio entre la sección de ingredientes y otros elementos */
   }
 
- .ingredient-card {
-    width: 20%; /* Ancho fijo de cada tarjeta */
+  .ingredient-card {
+ width: 20%; /
     background-color: #f9f9f9;
     padding: 20px;
     margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
     box-sizing: border-box;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-left: 20px;
+        margin-right: 20px;
+    
   }
 
   @media (max-width: 768px) {
@@ -77,7 +72,7 @@
       flex-basis: calc(100% - 40px); /* Ajustar el tamaño de la tarjeta para ocupar toda la pantalla menos los márgenes */
     }
   }
-
+  
   .ingredient-info {
     flex: 1;
   }
@@ -100,7 +95,7 @@
     display: flex;
     justify-content: center; /* Centrar horizontalmente la imagen */
     align-items: center; /* Centrar verticalmente la imagen */
-    margin-top: 10px;
+    margin-top:10px;
   }
 
   .ingredient-image {
@@ -108,7 +103,10 @@
     height: auto;
     border-radius: 50%; /* Hacer la imagen circular */
   }
+
+  /* Estilos de tarjetas de ingredientes */
 </style>
+
 
 
 {% schema %}
