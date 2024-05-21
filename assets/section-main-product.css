@@ -256,6 +256,12 @@ fieldset.product-form__input .form__label {
   gap: 10px; /* Ajusta este valor según el espacio vertical deseado */
 }
 
+.circle__container {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: black; /* Cambia el color según tus necesidades */
+}
 
 /* Fallback */
 .product-form__input input[type='radio'].focused + label,
