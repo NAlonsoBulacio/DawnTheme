@@ -204,7 +204,7 @@
         {%- endif -%}
       </media-gallery>
       {% if section.settings.enable_non_accessory_images %}
-        {% comment %} insert images below product {% endcomment %}
+        {% comment %} insert images below product 
         <div class="icon-text-blocks-container">
           <div class="icon-text-blocks">
             <div class="icon-text-block">
@@ -224,6 +224,7 @@
             </div>
           </div>
         </div>
+        {% endcomment %}
       {% endif %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
