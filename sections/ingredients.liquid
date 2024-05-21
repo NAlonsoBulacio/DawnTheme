@@ -39,8 +39,7 @@
 
 <style>
   /* Estilos existentes */
-
-  .ingredient-section {
+.ingredient-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -53,6 +52,7 @@
     padding: 20px;
     margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
     box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
   }
 
   @media (max-width: 768px) {
@@ -80,6 +80,9 @@
     height: 120px; /* Alto del contenedor de la imagen */
     border-radius: 50%; /* Hacer el contenedor circular */
     overflow: hidden; /* Ocultar partes de la imagen que excedan los bordes del contenedor */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente la imagen */
+    align-items: center; /* Centrar verticalmente la imagen */
   }
 
   .ingredient-image {
