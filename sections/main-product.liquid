@@ -529,7 +529,12 @@
                         </div>
                     </button>
                     {%- if block.settings.show_dynamic_checkout -%}
-                      {{ form | payment_button }}
+                    <div style="border-radius: 5px; overflow: hidden; background: rgb(95, 206, 135);"">
+                     <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" style="margin-top: -5px; border: none; background: rgb(95, 206, 135); border-radius: 5px; font-size: 16px; font-weight: bold;" onclick="document.querySelector('.shopify-payment-button__more-options').click();">👉ADD TO BAG</button>
+                       <div style="display:none;">
+                        {{ form | payment_button }}
+                     </div>
+                     </div>
                     {%- endif -%}
                   </div>
                   {% comment %} Sticky Add to Cart Start {% endcomment %}
