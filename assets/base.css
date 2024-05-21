@@ -1466,7 +1466,7 @@ button.shopify-payment-button__button--unbranded {
     0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background));
   background-color: var(--color-button);
   color: var(--color-button-text)
-  scale: 110;
+  scale: 30px;
 }
 
 .button--secondary:hover {
