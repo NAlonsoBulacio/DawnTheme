@@ -828,7 +828,7 @@ var waitForJQuery = setInterval(function () {
 {
    {% for variant in product.variants %}
      {% assign metafield_price = variant.metafields.custom.variant_price %}
-     "{{ variant.id }}": "{{ metafield_price }}" {% unless forloop.last %} , {% endunless %}
+     "{{ variant.id }}": "${{ metafield_price }}mxn" {% unless forloop.last %} , {% endunless %}
   {% endfor %}
 }
 </script>    
@@ -837,7 +837,7 @@ var waitForJQuery = setInterval(function () {
 {
    {% for variant in product.variants %}
      {% assign metafield_compare_price = variant.metafields.custom.variant_compare_price %}
-     "{{ variant.id }}": "{{ metafield_compare_price }}" {% unless forloop.last %} , {% endunless %}
+     "{{ variant.id }}": "${{ metafield_compare_price }}mxn" {% unless forloop.last %} , {% endunless %}
   {% endfor %}
 }
 </script>
