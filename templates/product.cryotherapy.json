@@ -117,6 +117,11 @@
       "settings": {
       }
     },
+    "percentage_p9dP8b": {
+      "type": "percentage",
+      "settings": {
+      }
+    },
     "1648566606ae389029": {
       "type": "bizjudge-reviews-widget",
       "settings": {
@@ -167,6 +172,7 @@
   "order": [
     "main",
     "items_benefits_fjDyjV",
+    "percentage_p9dP8b",
     "1648566606ae389029",
     "16581734153909d24a",
     "1653404549b09751b8",
