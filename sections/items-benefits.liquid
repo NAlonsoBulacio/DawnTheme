@@ -1,3 +1,59 @@
+<section class="section>
+  <div class="items-container">
+    <div class="item">
+      <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/client.png?v=1716313614" alt="Client" width="400px" height="400px">
+      <p>Descripción 1</p>
+    </div>
+    <div class="item">
+      <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/best.png?v=1716313613" alt="Best" width="400px" height="400px"> 
+      <p>Descripción 2</p>
+    </div>
+    <div class="item">
+      <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/leaf.png?v=1716313613" alt="Leaf" width="400px" height="400px">
+      <p>Descripción 3</p>
+    </div>
+    <div class="item">
+      <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/track.png?v=1716313613" alt="Track" width="400px" height="400px">
+      <p>Descripción 4</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .item {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    text-align: center;
+  }
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (min-width: 768px) {
+    .item {
+      flex: 0 1 calc(50% - 20px);
+    }
+  }
+  @media (min-width: 1024px) {
+    .item {
+      flex: 0 1 calc(25% - 20px);
+    }
+  }
+</style>
+
+
 {% schema %}
   {
     "name": "Items Benefits",
