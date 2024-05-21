@@ -785,9 +785,10 @@ class VariantSelects extends HTMLElement {
       }).includes(false);
     });
   }
+  
   updateButton() {
     const variantPriceElement = document.querySelector("#variant-price");
-    variantPriceElement.innerHTML = this.currentVariant.metafields.custom.variant_price;
+    variantPriceElement.innerHTML = this.currentVariant.id;
     
   }
   updateMedia() {
