@@ -560,6 +560,16 @@
                 <img style="width: 100%; max-width: 350px; height: auto;" src="{{ settings.security_logos | image_url }}" alt="Security logos" loading="lazy" width="690" height="116" />
               </div>
             {% endif %}
+                      <div class="additional-logos" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+  <div class="logo-item" style="text-align: center;">
+    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/freeShipping.png?v=1716307535" alt="Envío gratis" style="width: 50px; height: 50px;">
+    <p>Envío gratis</p>
+  </div>
+  <div class="logo-item" style="text-align: center;">
+    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/calendar.png?v=1716307536" alt="Entrega en 7 días" style="width: 50px; height: 50px;">
+    <p>Entrega en 7 días</p>
+  </div>
+</div>
            {% comment %}{%- when 'countdown_timer' -%}
   {% if product.selected_or_first_available_variant.available == true %}
     <div class="timer_countdown_bar">
