@@ -61,7 +61,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "carrot",
             "content": "",
             "page": ""
           }
@@ -70,7 +70,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "gluten_free",
             "content": "",
             "page": ""
           }
@@ -79,7 +79,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Collapsible row",
-            "icon": "check_mark",
+            "icon": "leather",
             "content": "",
             "page": ""
           }
