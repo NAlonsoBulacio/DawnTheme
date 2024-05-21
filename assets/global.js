@@ -774,7 +774,8 @@ class VariantSelects extends HTMLElement {
 
   updateButton() {
     const variantPriceElement = document.querySelector("#variant-price");
-    variantPriceElement.innerHTML = "Cambiamos el contenido";
+    variantPriceElement.innerHTML = this.currentVariant.metafields.custom.variant_price;
+    
   }
   
   updateOptions() {
