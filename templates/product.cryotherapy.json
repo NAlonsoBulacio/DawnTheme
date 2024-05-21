@@ -1,5 +1,10 @@
 {
   "sections": {
+    "items_benefits_fjDyjV": {
+      "type": "items-benefits",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -160,6 +165,7 @@
     }
   },
   "order": [
+    "items_benefits_fjDyjV",
     "main",
     "1648566606ae389029",
     "16581734153909d24a",
