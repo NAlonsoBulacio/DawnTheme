@@ -224,7 +224,7 @@ fieldset.product-form__input .form__label {
      background-color: #89adc9b2;
 }
 
-.product-form__input input[type='radio']:checked + circle__container {
+.product-form__input input[type='radio']:checked + label .circle__container {
   border-color: rgb(var(--color-foreground));
      background-color: #89adc9b2;
 }
