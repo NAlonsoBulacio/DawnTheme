@@ -42,10 +42,23 @@
 
   .ingredient-section {
     display: flex;
-    flex-wrap: nowrap; /* Evita el salto de línea en pantallas grandes */
-    overflow-x: auto; /* Agrega desplazamiento horizontal en caso de que el contenido sea más ancho que el contenedor */
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-bottom: 20px; /* Espacio entre la sección de ingredientes y otros elementos */
-    -webkit-overflow-scrolling: touch; /* Añade desplazamiento suave en dispositivos iOS */
+  }
+
+  .ingredient-card {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+    .ingredient-card {
+      flex-basis: calc(100% - 40px); /* Ajustar el tamaño de la tarjeta para ocupar toda la pantalla menos los márgenes */
+    }
   }
   
   .ingredient-info {
