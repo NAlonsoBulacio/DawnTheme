@@ -508,7 +508,7 @@
                         {% break %}
                       {% endif %}
                     {% endfor %}
-                    {% comment %} Quantity End {% endcomment %}
+                    {% comment %} Quantity End 
                     <button
                       type="submit"
                       name="add"
@@ -527,7 +527,7 @@
                             <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
                           </svg>
                         </div>
-                    </button>
+                    </button>{% endcomment %}
                     {%- if block.settings.show_dynamic_checkout -%}
                     <div style="border-radius: 5px; overflow: hidden; background: rgb(95, 206, 135);"">
                      <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" style="margin-top: -5px; border: none; background: rgb(95, 206, 135); border-radius: 5px; font-size: 16px; font-weight: bold;" onclick="document.querySelector('.shopify-payment-button__more-options').click();">
