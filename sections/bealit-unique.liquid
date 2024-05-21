@@ -1,6 +1,71 @@
+<div class="section__unique__container">
+  <div class="left__unique">
+    <h2 class="title__unique">Por qué Bealit es Único</h2>
+    <p class="description__unique">Bealit nació hace más de 80 años, dedicados al 100% durante todos estos años al desarrollo exclusivo, asegurándonos de ser la mejor elección del mercado.</p>
+  </div>
+  <div class="right_unique">
+    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/tabla_bealit.png?v=1716318722" alt="Tabla Bealit" class="image__unique" width="700px" height="700px" >
+  </div>
+</div>
+
+<style>
+  .section__unique__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px; /* Espacio entre las secciones */
+  }
+
+  .left__unique {
+    flex: 1;
+    padding-right: 20px; /* Espacio entre el contenido izquierdo y derecho */
+  }
+
+  .title__unique {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Espacio entre el título y la descripción */
+  }
+
+  .description__unique {
+    color: #888; /* Color de texto gris */
+    margin-bottom: 20px; /* Espacio entre la descripción y la imagen */
+  }
+
+  .right_unique {
+    flex: 1;
+  }
+
+  .image__unique {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .section__unique__container {
+      flex-direction: column;
+    }
+
+    .left__unique,
+    .right_unique {
+      width: 100%;
+      padding: 0;
+    }
+  }
+</style>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Bealit Unique",
+      "tag": "section",
+  "class": "section",
+    "settings": [],
+     "presets": [
+    {
+      "name": "Bealit Unique"
+    }
+  ]
   }
 {% endschema %}
