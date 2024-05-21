@@ -98,7 +98,52 @@ margin: 0;
   display: block;
         border-radius: 10px;
 }
+ .circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la pantalla */
+  }
 
+  .circle {
+    width: 200px; /* Diámetro del círculo */
+    height: 200px; /* Diámetro del círculo */
+    background: conic-gradient(
+      #4caf50 0% 75%, /* Color y porcentaje del llenado */
+      #d3d3d3 75% 100% /* Color de fondo */
+    );
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle::before {
+    content: '';
+    position: absolute;
+    width: 180px; /* Diámetro del círculo interior */
+    height: 180px; /* Diámetro del círculo interior */
+    background: white;
+    border-radius: 50%;
+  }
+
+  .inner-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 180px; /* Coincide con ::before */
+    height: 180px; /* Coincide con ::before */
+    background: transparent;
+    border-radius: 50%;
+  }
+
+  .percentage {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+  }
 {% endstyle %}
  
   <div class="percentage__container">
@@ -138,9 +183,17 @@ margin: 0;
        <div class="progress__bar">
         <div class="progress__" style="width: 85%;"><div></div></div>
        </div>
+  <div class="circle-container">
+    <div class="circle">
+      <div class="inner-circle">
+        <span class="percentage">75%</span>
+      </div>
+    </div>
+  </div>
      </div>
     </div>
   </div>
+    
   <div class="right">
     <img src="https://cdn.shopify.com/s/files/1/0436/0673/7049/products/gle-wrinkles-cream.jpg?v=1705892041" alt="Gle Skincare Wrinkle Cream with Niacinamide and Algae Extract" class="image" width="700px" height="700px">
   </div>
