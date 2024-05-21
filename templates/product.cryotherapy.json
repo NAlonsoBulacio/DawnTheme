@@ -10,11 +10,6 @@
         "padding_bottom": 52
       }
     },
-    "ingredients_7qQDNL": {
-      "type": "ingredients",
-      "settings": {
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -137,71 +132,13 @@
       "settings": {
       }
     },
-    "videos_list_NAMrEC": {
-      "type": "videos-list",
-      "blocks": {
-        "video_JfMyVR": {
-          "type": "video",
-          "settings": {
-            "heading": "",
-            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6f549ba7ee574a2cb31d0432909ceb14.mp4",
-            "description": "",
-            "tag_text": ""
-          }
-        },
-        "video_Ax6Ebr": {
-          "type": "video",
-          "settings": {
-            "heading": "",
-            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6f549ba7ee574a2cb31d0432909ceb14.mp4",
-            "description": "",
-            "tag_text": ""
-          }
-        },
-        "video_EdnpXQ": {
-          "type": "video",
-          "settings": {
-            "heading": "",
-            "video_url": "",
-            "description": "",
-            "tag_text": ""
-          }
-        },
-        "video_4A3tzK": {
-          "type": "video",
-          "settings": {
-            "heading": "",
-            "video_url": "",
-            "description": "",
-            "tag_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_JfMyVR",
-        "video_Ax6Ebr",
-        "video_EdnpXQ",
-        "video_4A3tzK"
-      ],
-      "settings": {
-        "title": "Video Testimonials",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "swipe_on_desktop": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "bealit_unique_4WKzUq": {
       "type": "bealit-unique",
+      "settings": {
+      }
+    },
+    "ingredients_7qQDNL": {
+      "type": "ingredients",
       "settings": {
       }
     },
@@ -254,12 +191,11 @@
   },
   "order": [
     "main_ingredients_GyAz7r",
-    "ingredients_7qQDNL",
     "main",
     "items_benefits_fjDyjV",
     "percentage_p9dP8b",
-    "videos_list_NAMrEC",
     "bealit_unique_4WKzUq",
+    "ingredients_7qQDNL",
     "1648566606ae389029",
     "16581734153909d24a",
     "1653404549b09751b8",
