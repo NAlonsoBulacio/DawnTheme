@@ -13,6 +13,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "judge_me_reviews_preview_badge_iBPizh": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -96,6 +101,7 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_preview_badge_iBPizh",
         "title",
         "0203eefc-c525-470b-a804-652efe253115",
         "cb15cf33-90d0-473f-9a6b-5198e4824f19",
@@ -140,15 +146,6 @@
     "ingredients_7qQDNL": {
       "type": "ingredients",
       "settings": {
-      }
-    },
-    "1648566606ae389029": {
-      "type": "bizjudge-reviews-widget",
-      "settings": {
-        "custom_liquid": "<div id=\"bizjudge-reviews-widget\" style=\"--bizjudge-widget-container-width: 1300px; --bizjudge-widget-button-width: 350px; --bizjudge-widget-border-radius: 0px; --bizjudge-widget-font-family: Helvetica; --bizjudge-widget-stars-font-family: system-ui; --bizjudge-widget-primary-background: #FFFFFF; --bizjudge-widget-secondary-background: #000000; --bizjudge-widget-primary-foreground: #000000; --bizjudge-widget-secondary-foreground: #FFFFFF; --bizjudge-widget-border-color: #FFFFFF; --bizjudge-widget-divider-color: #FFFFFF; --bizjudge-widget-filled-stars-background: #f7cb2d;; --bizjudge-widget-missing-stars-background: #D0D0D0; --bizjudge-widget-product-link-foreground: #000000; --bizjudge-widget-icons-foreground: #000000;\" data-widget-type=\"standard-reviews-widget\" data-business-id=\"{{ settings.bizjudge_business_id }}\" data-product-handle=\"{{ product.handle }}\" data-reviews-order=\"-rating\" data-reviews-per-page=\"18\"><a href=\"{{ settings.bizjudge_company_url }}\" rel=\"noopener\" target=\"_blank\">{{ shop.name }}<\/a><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "16581734153909d24a": {
@@ -203,22 +200,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "171632729894a517bb": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_PCnXgX": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_PCnXgX"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -228,11 +209,9 @@
     "percentage_p9dP8b",
     "bealit_unique_4WKzUq",
     "ingredients_7qQDNL",
-    "1648566606ae389029",
     "16581734153909d24a",
     "1653404549b09751b8",
     "product-recommendations",
-    "171632727810b31f2e",
-    "171632729894a517bb"
+    "171632727810b31f2e"
   ]
 }
