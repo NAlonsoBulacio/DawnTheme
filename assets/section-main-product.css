@@ -257,8 +257,8 @@ fieldset.product-form__input .form__label {
 }
 
 .circle__container {
-  width: 7px;
-  height: 7px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background-color: black; /* Cambia el color según tus necesidades */
 }
