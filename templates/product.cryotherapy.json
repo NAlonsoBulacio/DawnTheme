@@ -114,6 +114,11 @@
             "content": "",
             "page": ""
           }
+        },
+        "judge_me_reviews_preview_badge_ximJDe": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -129,7 +134,8 @@
         "collapsible_tab_6FUNJ4",
         "collapsible_tab_9BWcRU",
         "collapsible_tab_8GCm3W",
-        "collapsible_tab_YhUFKE"
+        "collapsible_tab_YhUFKE",
+        "judge_me_reviews_preview_badge_ximJDe"
       ],
       "settings": {
         "enable_sticky_info": true,
