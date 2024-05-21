@@ -1,24 +1,57 @@
-<section class="section">
-  <div class="items-container">
-    <div class="item">
+<section class="section__items">
+  <div class="items__container__benefits">
+    <div class="item__benefits">
       <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/client.png?v=1716313614" alt="Client" width="100px" height="100px">
       <p> Mas de X clientes ya han rejuvenecido su piel</p>
     </div>
-    <div class="item">
+    <div class="item__benefits">
       <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/best.png?v=1716313613" alt="Best" width="100px" height="100px"> 
       <p>Devolución de tu dinero hasta 45 días</p>
     </div>
-    <div class="item">
+    <div class="item__benefits">
       <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/leaf.png?v=1716313613" alt="Leaf" width="100px" height="100px">
       <p>Ingredientes con principios activos naturales</p>
     </div>
-    <div class="item">
+    <div class="item__benefits">
       <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/track.png?v=1716313613" alt="Track" width="100px" height="100px">
       <p>Envío gratis por tiempo limitado</p>
     </div>
   </div>
 </section>
 
+<style>
+  .section__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .items__container__benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .item__benefits {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    text-align: center;
+  }
+  .item__benefits img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (min-width: 768px) {
+    .item__benefits {
+      flex: 0 1 calc(50% - 20px);
+    }
+  }
+  @media (min-width: 1024px) {
+    .item__benefits {
+      flex: 0 1 calc(25% - 20px);
+    }
+  }
+</style>
 
 
 {% schema %}
