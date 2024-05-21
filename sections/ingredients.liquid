@@ -1,6 +1,44 @@
+<div class="ingredient-section">
+  <div class="ingredient-card">Ingredient 1</div>
+  <div class="ingredient-card">Ingredient 2</div>
+  <div class="ingredient-card">Ingredient 3</div>
+  <div class="ingredient-card">Ingredient 4</div>
+</div>
+
+<style>
+  .ingredient-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Espacio entre la sección de ingredientes y otros elementos */
+  }
+
+  .ingredient-card {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+    .ingredient-card {
+      flex-basis: calc(100% - 40px); /* Ajustar el tamaño de la tarjeta para ocupar toda la pantalla menos los márgenes */
+    }
+  }
+</style>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Ingredients",
+      "tag": "section",
+  "class": "section",
+    "settings": [],
+     "presets": [
+    {
+      "name": "Ingredients"
+    }
+  ]
   }
 {% endschema %}
