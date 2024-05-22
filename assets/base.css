@@ -3483,6 +3483,7 @@ details-disclosure > details {
     margin-right: 10px; /* Margen derecho entre tarjetas de ingredientes */
     display: flex;
     justify-content: center;
+    border-radius: 20px;
   }
 
   @media (max-width: 768px) {
