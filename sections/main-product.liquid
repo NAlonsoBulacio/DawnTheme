@@ -802,23 +802,26 @@
 var waitForJQuery = setInterval(function () {
   if (typeof $ != 'undefined') {
 
-    $( document ).ready(function() {
-      if($(".product-form__submit").length = 1){
-        $(window).on('scroll',function(){
+    $(document).ready(function() {
+      if ($(".product-form__submit").length === 1) {
+        $(window).on('scroll', function() {
           var topHeight = $('.product-form__submit').offset().top;
-          if ( window.innerWidth <= 2000){
+          var scrolledHeight = window.scrollY;
+          var windowHeight = window.innerHeight;
+
+          if (window.innerWidth <= 2000 && scrolledHeight >= windowHeight) {
             $('#myModal').css('display', 'block');
-          }else{
+          } else {
             $('#myModal').css('display', 'none');
           }
         });
       }
 
-      $(document).on("click", "#myModal", function(event){
+      $(document).on("click", "#myModal", function(event) {
         event.preventDefault();
         $("button.product-form__submit").trigger("click");
       });
-    })
+    });
 
     clearInterval(waitForJQuery);
   }
