@@ -231,7 +231,7 @@
         "video_kmtrXc"
       ],
       "settings": {
-        "title": "Video Testimonials",
+        "title": "",
         "heading_size": "h1",
         "heading_alignment": "center",
         "columns_desktop": 3,
@@ -305,7 +305,7 @@
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "accent-2",
         "columns_mobile": "1",
@@ -318,7 +318,7 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "cover_image": "shopify:\/\/shop_images\/Foto-RoC-2020-2.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=pNPqQPrcSIo",
         "description": "",
