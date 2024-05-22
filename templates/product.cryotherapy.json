@@ -143,11 +143,6 @@
       "settings": {
       }
     },
-    "banner_dr_Be3wKr": {
-      "type": "banner-dr",
-      "settings": {
-      }
-    },
     "videos_list_JtjqVg": {
       "type": "videos-list",
       "blocks": {
@@ -208,6 +203,11 @@
       "settings": {
       }
     },
+    "banner_dr_Be3wKr": {
+      "type": "banner-dr",
+      "settings": {
+      }
+    },
     "main_ingredients_GyAz7r": {
       "type": "main-ingredients",
       "settings": {
@@ -216,20 +216,6 @@
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "ingredients_7qQDNL": {
-      "type": "ingredients",
-      "settings": {
-      }
-    },
-    "1653404549b09751b8": {
-      "type": "instafeed",
-      "settings": {
-        "heading_font": "helvetica_n4",
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
       }
     },
     "product-recommendations": {
@@ -249,6 +235,11 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "ingredients_7qQDNL": {
+      "type": "ingredients",
+      "settings": {
       }
     },
     "1716328117764f6e46": {
@@ -280,13 +271,12 @@
   "order": [
     "main",
     "items_benefits_fjDyjV",
-    "banner_dr_Be3wKr",
     "videos_list_JtjqVg",
     "bealit_unique_4WKzUq",
+    "banner_dr_Be3wKr",
     "main_ingredients_GyAz7r",
-    "ingredients_7qQDNL",
-    "1653404549b09751b8",
     "product-recommendations",
+    "ingredients_7qQDNL",
     "1716328117764f6e46",
     "16581734153909d24a"
   ]
