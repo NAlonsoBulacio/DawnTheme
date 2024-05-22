@@ -172,6 +172,7 @@
           "9ae195cd-b83b-44af-aeb7-49b1c608e812": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/coco.jpg",
               "image_width": 150,
               "alignment": "center",
               "custom_liquid": ""
