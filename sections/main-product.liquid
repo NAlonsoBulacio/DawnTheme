@@ -805,7 +805,7 @@ var waitForJQuery = setInterval(function () {
       if($(".product-form__submit").length > 1){
         $(window).on('scroll',function(){
           var topHeight = $('.product-form__submit').offset().top;
-          if ($(this).scrollTop() >= 400 && window.innerWidth <= 750){
+          if (window.innerWidth <= 750){
             $('#myModal').css('display', 'block');
           }else{
             $('#myModal').css('display', 'none');
