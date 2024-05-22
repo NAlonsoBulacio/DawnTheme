@@ -31,7 +31,8 @@ En Bealit, nuestra misión es Ofrecer los Mejores Productos del Mercado, con Ing
 
   .image-guarantee-container img {
     width: 100%;
-    height: auto;
+    height: 100%; /* Hacer que la imagen ocupe toda la altura del contenedor */
+    object-fit: cover; /* Asegurar que la imagen cubra el contenedor sin deformarse */
     display: block;
   }
 
@@ -61,22 +62,12 @@ En Bealit, nuestra misión es Ofrecer los Mejores Productos del Mercado, con Ing
       margin-left: 10px;
       margin-right: 10px;
     }
-    .image-guarantee-container {
+    .image-guarantee-container, .text-guarantee-container {
       width: 100%;
       height: 50%; /* Altura de 50% en pantallas pequeñas */
     }
     .text-guarantee-container {
-      width: 100%;
-      height: 50%; /* Altura de 50% en pantallas pequeñas */
       background: #07A3BA;
-    }
-    .text-guarantee-container {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      text-align: left;
     }
   }
 </style>
