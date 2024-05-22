@@ -19,15 +19,14 @@ En Bealit, nuestra misión es Ofrecer los Mejores Productos del Mercado, con Ing
     overflow: hidden; /* Asegurar que el contenido no exceda los bordes */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin-bottom: 20px; /* Espacio debajo de la sección */
-     margin-left: 70px;
-      margin-right: 70px;
-    heigth: 400px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 400px; /* Altura para pantallas grandes */
   }
 
   .image-guarantee-container {
     flex: 1;
     min-width: 300px; /* Ancho mínimo para la imagen */
-   
   }
 
   .image-guarantee-container img {
@@ -55,10 +54,12 @@ En Bealit, nuestra misión es Ofrecer los Mejores Productos del Mercado, con Ing
   }
 
   @media (max-width: 768px) {
+    .image-text-section {
+      height: 700px; /* Altura para pantallas pequeñas */
+    }
     .image-guarantee-container {
       width: 100%;
     }
-
     .text-guarantee-container {
       width: 100%;
       background: #07A3BA;
