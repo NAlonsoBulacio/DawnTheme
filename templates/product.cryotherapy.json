@@ -56,17 +56,17 @@
         "collapsible_tab_6FUNJ4": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "apple",
-            "content": "<p>Lorem ipsum<\/p>",
+            "heading": "¿Qué Incluye este Pack?",
+            "icon": "check_mark",
+            "content": "<ul><li>Biotensor Eps Seafill  (con un tono más claro al costado) 30 ml<\/li><li>Dermacel Células Madre (con un tono más claro al costado) 120 gr<\/li><li>Gel con Liposomas (con un tono más claro al costado) 60 gr<\/li><li>Gel Contorno de Ojos con Ácido Hialurónico (con un tono más claro al costado) 60 gr<\/li><li>Protector Solar FPS 40  (con un tono más claro al costado) 125 ml<\/li><\/ul>",
             "page": ""
           }
         },
         "collapsible_tab_9BWcRU": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "carrot",
+            "heading": "Ingredientes",
+            "icon": "leaf",
             "content": "",
             "page": ""
           }
@@ -74,8 +74,8 @@
         "collapsible_tab_8GCm3W": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "gluten_free",
+            "heading": " ¿Cómo funciona?",
+            "icon": "question_mark",
             "content": "",
             "page": ""
           }
@@ -83,8 +83,26 @@
         "collapsible_tab_YhUFKE": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "leather",
+            "heading": "¿Cómo se utiliza?",
+            "icon": "star",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_nJxFbL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Envíos",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_4knH4r": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": " Política de Reembolso",
+            "icon": "return",
             "content": "",
             "page": ""
           }
@@ -103,7 +121,9 @@
         "collapsible_tab_6FUNJ4",
         "collapsible_tab_9BWcRU",
         "collapsible_tab_8GCm3W",
-        "collapsible_tab_YhUFKE"
+        "collapsible_tab_YhUFKE",
+        "collapsible_tab_nJxFbL",
+        "collapsible_tab_4knH4r"
       ],
       "settings": {
         "enable_sticky_info": true,
