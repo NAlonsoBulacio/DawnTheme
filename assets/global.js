@@ -795,8 +795,19 @@ class VariantSelects extends HTMLElement {
    const allComparePricesMetafieldData = JSON.parse(document.querySelector("#variant_metafield_compare_price").textContent)
     const variantComparePriceElement = document.querySelector("#variant-compare-price");
     variantComparePriceElement.innerHTML = allComparePricesMetafieldData[this.currentVariant.id];
-    
   }
+
+  updateStickyButton() {
+    const allPricesMetafieldData = JSON.parse(document.querySelector("#variant_metafield_price").textContent)
+    const variantPriceElement = document.querySelector("#variant-sticky-price");
+    variantPriceElement.innerHTML = allPricesMetafieldData[this.currentVariant.id];
+    
+   const allComparePricesMetafieldData = JSON.parse(document.querySelector("#variant_metafield_compare_price").textContent)
+    const variantComparePriceElement = document.querySelector("#variant-sticky-compare-price");
+    variantComparePriceElement.innerHTML = allComparePricesMetafieldData[this.currentVariant.id];
+  }
+  
+  
   updateMedia() {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
