@@ -181,7 +181,7 @@
             "type": "text",
             "settings": {
               "heading": "About",
-              "subtext": "<p>Gle Skincare is an innovative fragrance-free, unisex skincare line that aims to fight the early signs of aging by providing a unique all-natural boost to your skin.<\/p>",
+              "subtext": "",
               "custom_liquid": ""
             }
           },
