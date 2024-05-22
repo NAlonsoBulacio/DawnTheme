@@ -2282,7 +2282,12 @@ input[type='checkbox'] {
 
 /* section-announcement-bar */
 #shopify-section-announcement-bar {
-  z-index: 4;
+   position: fixed; /* Mantén la barra fija en su posición */
+  top: 50px; /* Ajusta esta propiedad según la altura de .timer_countdown_bar */
+  left: 0; /* Asegura que la barra cubra todo el ancho de la pantalla */
+  width: 100%;
+  z-index: 9998; /* Debe estar justo debajo de la primera barra */
+  /* Puedes agregar más estilos aquí para el announcement bar */
 }
 
 .announcement-bar {
