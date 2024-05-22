@@ -1,6 +1,20 @@
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
+    <div class="timer_countdown_bar">
+      <div class="timer_countdown hidden" id="countdown">
+        <span class="timer_label">Offer ends soon. Hurry up!</span>
+        <div class="timer_set">
+          <span class="time days">00</span>
+          <span class="dots_span">:</span>
+          <span class="time hours">02</span>
+          <span class="dots_span">:</span>
+          <span class="time minutes">00</span>
+          <span class="dots_span">:</span>
+          <span class="time second">00</span>
+            </div>
+            </div>
+            </div>
       <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
