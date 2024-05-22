@@ -169,15 +169,6 @@
       "settings": {
       }
     },
-    "16581734153909d24a": {
-      "type": "custom-faq",
-      "settings": {
-        "custom_liquid": "{{ product.metafields.my_fields.faq }}",
-        "color_scheme": "accent-7",
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
     "1653404549b09751b8": {
       "type": "instafeed",
       "settings": {
@@ -221,6 +212,15 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "16581734153909d24a": {
+      "type": "custom-faq",
+      "settings": {
+        "custom_liquid": "{{ product.metafields.my_fields.faq }}",
+        "color_scheme": "accent-7",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
     }
   },
   "order": [
@@ -232,9 +232,9 @@
     "percentage_p9dP8b",
     "bealit_unique_4WKzUq",
     "ingredients_7qQDNL",
-    "16581734153909d24a",
     "1653404549b09751b8",
     "product-recommendations",
-    "1716328117764f6e46"
+    "1716328117764f6e46",
+    "16581734153909d24a"
   ]
 }
