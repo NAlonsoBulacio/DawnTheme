@@ -3463,6 +3463,12 @@ details-disclosure > details {
 
  /* Ingredientes */
 
+.ingredients__section__ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
   .ingredient-section {
     display: flex;
     flex-wrap: wrap;
