@@ -3484,6 +3484,7 @@ details-disclosure > details {
     display: flex;
     justify-content: center;
     border-radius: 20px;
+    overflow: hidden;
   }
 
   @media (max-width: 768px) {
