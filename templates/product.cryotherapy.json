@@ -1,99 +1,5 @@
 {
   "sections": {
-    "featured_in_Y6hVw3": {
-      "type": "featured-in",
-      "blocks": {
-        "column_iJBJfV": {
-          "type": "column",
-          "settings": {
-            "title": "Paso 1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_yUPHRF": {
-          "type": "column",
-          "settings": {
-            "title": "Paso 2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_HdeJE7": {
-          "type": "column",
-          "settings": {
-            "title": "Paso 3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_gqf9Cr": {
-          "type": "column",
-          "settings": {
-            "title": "Paso 4",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_iJBJfV",
-        "column_yUPHRF",
-        "column_HdeJE7",
-        "column_gqf9Cr"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "video_NEmDTU": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_video_PMqepb": {
-      "type": "multicolumn_video",
-      "settings": {
-        "title": "Video Testimonials",
-        "video_ids": "",
-        "heading_size": "h1",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "swipe_on_desktop": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_in_PBG6DP": {
       "type": "featured-in",
       "blocks": {
@@ -344,6 +250,84 @@
       "settings": {
       }
     },
+    "featured_in_Y6hVw3": {
+      "type": "featured-in",
+      "blocks": {
+        "column_iJBJfV": {
+          "type": "column",
+          "settings": {
+            "title": "Paso 1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yUPHRF": {
+          "type": "column",
+          "settings": {
+            "title": "Paso 2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HdeJE7": {
+          "type": "column",
+          "settings": {
+            "title": "Paso 3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gqf9Cr": {
+          "type": "column",
+          "settings": {
+            "title": "Paso 4",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_iJBJfV",
+        "column_yUPHRF",
+        "column_HdeJE7",
+        "column_gqf9Cr"
+      ],
+      "settings": {
+        "title": "Como se usa Bealit",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "video_NEmDTU": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Foto-RoC-2020-2.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "accent-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner_dr_Be3wKr": {
       "type": "banner-dr",
       "settings": {
@@ -411,14 +395,13 @@
     }
   },
   "order": [
-    "featured_in_Y6hVw3",
-    "video_NEmDTU",
-    "multicolumn_video_PMqepb",
     "featured_in_PBG6DP",
     "main",
     "items_benefits_fjDyjV",
     "videos_list_JtjqVg",
     "bealit_unique_4WKzUq",
+    "featured_in_Y6hVw3",
+    "video_NEmDTU",
     "banner_dr_Be3wKr",
     "main_ingredients_GyAz7r",
     "product-recommendations",
