@@ -797,15 +797,16 @@
   {% endif %}
 </section>
 
+
 <script>
 var waitForJQuery = setInterval(function () {
   if (typeof $ != 'undefined') {
 
     $( document ).ready(function() {
-      if($(".product-form__submit").length > 1){
+      if($(".product-form__submit").length = 1){
         $(window).on('scroll',function(){
           var topHeight = $('.product-form__submit').offset().top;
-          if (window.innerWidth <= 750){
+          if ( window.innerWidth <= 2000){
             $('#myModal').css('display', 'block');
           }else{
             $('#myModal').css('display', 'none');
