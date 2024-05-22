@@ -1,178 +1,179 @@
 {% style %}
+.percentage__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 1200px) {
   .percentage__container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    margin-right: 100px;
+    margin-left: 100px;
   }
+}
 
-  @media screen and (min-width: 1200px) {
-    .percentage__container {
-      margin-right: 100px;
-      margin-left: 100px;
-    }
+@media screen and (max-width: 1199px) {
+  .percentage__container {
+    margin-right: 15px;
+    margin-left: 15px;
   }
+}
 
-  @media screen and (max-width: 1199px) {
-    .percentage__container {
-      margin-right: 15px;
-      margin-left: 15px;
-    }
+.left {
+  width: 100%;
+  flex: 1;
+  padding: 20px;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .percentage__container {
+    flex-direction: column;
   }
-
-  .left {
-    width: 100%;
-    flex: 1;
-    padding: 20px;
-  }
-
   .right {
-    flex: 1;
-    padding: 20px;
+    flex: auto;
+    order: -1;
+    padding: 0px;
+    margin-bottom: 10px;
   }
+  .left {
+    padding: 0px;
+  }
+}
 
-  .image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 4px;
-  }
+.percentage__title__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
-  @media (max-width: 768px) {
-    .percentage__container {
-      flex-direction: column;
-    }
-    .right {
-      flex: auto;
-      order: -1;
-      padding: 0px;
-      margin-bottom: 10px;
-    }
-    .left {
-      padding: 0px;
-    }
-  }
+.percentage__title {
+  margin: 0;
+  font-weight: bold;
+}
 
-  .percentage__title__container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
+.progress__bars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
 
-  .percentage__title {
-    margin: 0;
-       font-weight: bold;
-  }
+.case__progress {
+  width: 100%;
+  margin-right: 10px; /* Espacio entre las barras */
+  margin-bottom: 10px; /* Espacio entre las barras cuando se envuelven */
+}
 
-  .progress__bars {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.2rem;
-  }
+.case__progress div {
+  margin-bottom: 5px; /* Espacio entre el título y la barra */
+  display: flex;
+}
 
-  .case__progress {
-    width: 100%;
-    margin-right: 10px; /* Espacio entre las barras */
-    margin-bottom: 10px; /* Espacio entre las barras cuando se envuelven */
-  }
+.progress__bar {
+  width: 100%;
+  height: 25px;
+  border: 1px solid #333;
+  position: relative;
+  background: #f2f2f2;
+  border-radius: 10px;
+  overflow: hidden;
+}
 
-  .case__progress div {
-    margin-bottom: 5px; /* Espacio entre el título y la barra */
-    display: flex;
-  }
+.percentage__text {
+  font-size: 1.3rem;
+}
 
-  .progress__bar {
-    width: 100%;
-    height: 25px;
-    border: 1px solid #333;
-    position: relative;
-    background: #f2f2f2;
-    border-radius: 10px;
-    overflow: hidden;
-  }
+.number__percentage {
+  margin: 0;
+  width: 70px;
+}
 
-  .percentage__text {
-    font-size: 1.3rem;
-  }
+.progress__ {
+  height: 100%;
+  background-image: linear-gradient(to right, #3b82f6, #93c5fd);
+  display: block;
+  border-radius: 10px;
+}
 
-  .number__percentage {
-    margin: 0;
-    width: 70px;
-  }
-
-  .progress__ {
-    height: 100%;
-    background-image: linear-gradient(to right, #3b82f6, #93c5fd);
-    display: block;
-    border-radius: 10px;
-  }
 .circle-container {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.circle-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 80px; /* Diámetro del círculo */
+  height: 80px; /* Diámetro del círculo */
+  border: 2px solid black; /* Borde fino y negro */
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: conic-gradient(#89adc9 calc(var(--percentage) * 1%), transparent 0); /* Relleno basado en porcentaje */
+}
+
+.circle::before {
+  content: '';
+  position: absolute;
+  width: 60px; /* Diámetro del círculo interior */
+  height: 60px; /* Diámetro del círculo interior */
+  background: white;
+  border-radius: 50%;
+}
+
+.inner-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 60px; /* Coincide con ::before */
+  height: 60px; /* Coincide con ::before */
+  background: transparent;
+  border-radius: 50%;
+}
+
+.percentage {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  color: #89adc9b2;
+}
+
+.description__percentage {
+  max-width: 200px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .circle-container {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-  }
-
-  .circle-item {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
-  }
-
-  .circle {
-    width: 80px; /* Diámetro del círculo */
-    height: 80px; /* Diámetro del círculo */
-    background:#89adc9;
-    );
-    border-radius: 50%;
-    position: relative;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: nowrap;
   }
-
-  .circle::before {
-    content: '';
-    position: absolute;
-    width: 60px; /* Diámetro del círculo interior */
-    height: 60px; /* Diámetro del círculo interior */
-    background: white;
-    border-radius: 50%;
-  }
-
-  .inner-circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 60px; /* Coincide con ::before */
-    height: 60px; /* Coincide con ::before */
-    background: transparent;
-    border-radius: 50%;
-  }
-
-  .percentage {
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-     color:#89adc9b2;
-  }
-
-  .description__percentage {
-    max-width: 200px;
-    font-size: 16px;
-    line-height: 1.4;
-
-  }
-
-  @media (min-width: 768px) {
-    .circle-container {
-      flex-direction: column;
-      justify-content: center;
-      flex-wrap: nowrap;
-    }
-  }
+}
 {% endstyle %}
+
 
 <div class="percentage__container">
   <div class="left">
