@@ -768,6 +768,7 @@ class VariantSelects extends HTMLElement {
       this.renderProductInfo();
       this.updateShareUrl();
       this.updateButton();
+      this.updateStickyButton()
     }
   }
 
