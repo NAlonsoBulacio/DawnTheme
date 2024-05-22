@@ -1466,7 +1466,7 @@ button.shopify-payment-button__button--unbranded {
     0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background));
   background-color: var(--color-button);
   color: var(--color-button-text)
-  scale: 30px;
+
 }
 
 .button--secondary:hover {
@@ -3365,7 +3365,7 @@ details-disclosure > details {
 .timer_countdown_bar {
 
   width: 100%;
-  background-color: #f39c12; /* Cambia el color según prefieras */
+  background-color: #07A3BA; /* Cambia el color según prefieras */
   z-index: 9999; /* Asegúrate de que esté por encima de otros elementos */
   text-align: center;
   padding: 10px 0;
