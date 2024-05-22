@@ -136,7 +136,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "🚨 FREE SHIPPING IN THE US OVER $50 🚨",
+              "text": "🚨Envío Gratis HOY🚨",
               "heading_size": "h5",
               "color_scheme": "accent-2",
               "link": "shopify:\/\/collections\/shop"

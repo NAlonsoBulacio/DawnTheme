@@ -138,13 +138,13 @@
         "padding_bottom": 56
       }
     },
-    "banner_dr_Be3wKr": {
-      "type": "banner-dr",
+    "items_benefits_fjDyjV": {
+      "type": "items-benefits",
       "settings": {
       }
     },
-    "items_benefits_fjDyjV": {
-      "type": "items-benefits",
+    "banner_dr_Be3wKr": {
+      "type": "banner-dr",
       "settings": {
       }
     },
@@ -278,8 +278,8 @@
   },
   "order": [
     "main",
-    "banner_dr_Be3wKr",
     "items_benefits_fjDyjV",
+    "banner_dr_Be3wKr",
     "videos_list_JtjqVg",
     "bealit_unique_4WKzUq",
     "main_ingredients_GyAz7r",
