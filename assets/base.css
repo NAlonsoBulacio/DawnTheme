@@ -3481,6 +3481,8 @@ details-disclosure > details {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin-left: 10px; /* Margen izquierdo entre tarjetas de ingredientes */
     margin-right: 10px; /* Margen derecho entre tarjetas de ingredientes */
+    display: flex;
+    justify-content: center;
   }
 
   @media (max-width: 768px) {
