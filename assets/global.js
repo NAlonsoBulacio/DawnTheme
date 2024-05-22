@@ -987,7 +987,7 @@ if($('#countdown').length){
   function checkCookie($this) {
     var usertime=getCookie("timercookies");
     if (usertime == "") {
-      var setMinutes = 60 * 15
+      var setMinutes = 60 * 60
       display = $this;
       startTimer(setMinutes, display);
     }else{
