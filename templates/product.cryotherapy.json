@@ -54,15 +54,6 @@
             "benefits": "{{ product.metafields.my_fields.benefits }}"
           }
         },
-        "collapsible_tab_6FUNJ4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "¿Qué Incluye este Pack?",
-            "icon": "check_mark",
-            "content": "<ul><li>Biotensor Eps Seafill  (con un tono más claro al costado) 30 ml<\/li><li>Dermacel Células Madre (con un tono más claro al costado) 120 gr<\/li><li>Gel con Liposomas (con un tono más claro al costado) 60 gr<\/li><li>Gel Contorno de Ojos con Ácido Hialurónico (con un tono más claro al costado) 60 gr<\/li><li>Protector Solar FPS 40  (con un tono más claro al costado) 125 ml<\/li><\/ul>",
-            "page": ""
-          }
-        },
         "collapsible_tab_9BWcRU": {
           "type": "collapsible_tab",
           "settings": {
@@ -119,7 +110,6 @@
         "cdfc8ada-677c-4465-aaf2-824f42cc7ec2",
         "buy_buttons",
         "benefits",
-        "collapsible_tab_6FUNJ4",
         "collapsible_tab_9BWcRU",
         "collapsible_tab_8GCm3W",
         "collapsible_tab_YhUFKE",
