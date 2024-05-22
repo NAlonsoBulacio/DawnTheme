@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "0203eefc-c525-470b-a804-652efe253115": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        },
         "judge_me_reviews_preview_badge_iBPizh": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -10,11 +16,6 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
-        },
-        "0203eefc-c525-470b-a804-652efe253115": {
-          "type": "rating",
           "settings": {
           }
         },
@@ -109,9 +110,9 @@
         }
       },
       "block_order": [
+        "0203eefc-c525-470b-a804-652efe253115",
         "judge_me_reviews_preview_badge_iBPizh",
         "title",
-        "0203eefc-c525-470b-a804-652efe253115",
         "cb15cf33-90d0-473f-9a6b-5198e4824f19",
         "price",
         "variant_picker",
