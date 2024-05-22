@@ -173,6 +173,7 @@
         },
         "video_kmtrXc": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "heading": "",
             "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
