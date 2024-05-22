@@ -3460,3 +3460,65 @@ details-disclosure > details {
 .selected__variant .contain__option {
   font-weight: bold;
 }
+
+ /* Ingredientes */
+.ingredient-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Espacio entre la sección de ingredientes y otros elementos */
+   margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .ingredient-card {
+ width: 20%; /
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-left: 10px;
+        margin-right: 10px;
+    
+  }
+
+  @media (max-width: 768px) {
+    .ingredient-card {
+      flex-basis: calc(100% - 40px); /* Ajustar el tamaño de la tarjeta para ocupar toda la pantalla menos los márgenes */
+    }
+  }
+  
+  .ingredient-info {
+    flex: 1;
+  }
+
+  .ingredient-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .ingredient-description {
+    margin: 0;
+    color: #666;
+  }
+
+  .ingredient-image-container {
+    width: 120px; /* Ancho del contenedor de la imagen */
+    height: 120px; /* Alto del contenedor de la imagen */
+    border-radius: 50%; /* Hacer el contenedor circular */
+    overflow: hidden; /* Ocultar partes de la imagen que excedan los bordes del contenedor */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente la imagen */
+    align-items: center; /* Centrar verticalmente la imagen */
+    margin-top:10px;
+  }
+
+  .ingredient-image {
+    width: 100%; /* Ajustar la imagen al contenedor */
+    height: auto;
+    border-radius: 50%; /* Hacer la imagen circular */
+  }
+
+  /* Estilos de tarjetas de ingredientes */
