@@ -210,6 +210,7 @@
     },
     "main_ingredients_GyAz7r": {
       "type": "main-ingredients",
+      "disabled": true,
       "settings": {
         "title": "Main Ingredients",
         "custom_liquid": "",
