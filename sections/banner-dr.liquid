@@ -1,131 +1,75 @@
-{% style %}
-.section-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    background-color: #ececec;
-  overflow: overflow-hidden;
-}
-
-  @media screen and (min-width: 1200px) {
-  .container {
-    margin-left: 700px;
-    margin-right: 300px;
-  }
- .subtitle {
-  font-weight: bold;
-  font-size: 4rem;
-}
-      .image-container {
-  margin-left: 200px;
-}
-    .guarantee {
-  font-size: 26px;
-}
-
-.money-back {
-  font-size: 26px;
-}
-    .image-container {
-  flex: 1;
-}
-}
-
-@media screen and (max-width: 1199px) and (min-width: 768px) {
-  .container {
-    padding-left: 150px; /* La mitad de 300px */
-    padding-right: 150px; /* La mitad de 300px */
-  }
- .subtitle {
-  font-weight: bold;
-  font-size: 4rem;
-}
-  .image-container {
-  margin-left: 200px;
-}
-  .guarantee {
-  font-size: 26px;
-}
-
-.money-back {
-  font-size: 26px;
-}
-  .image-container {
-  flex: 1;
-}
-}
-
-@media screen and (max-width: 767px) {
-  .section-container {
-    width:100%;
-      overflow: hidden;
-height: 200px;
-}
-  .container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-   .subtitle {
-  font-weight: bold;
-  font-size: 1.9rem;
-}
-    .image-container {
-  margin-left: 10px;
-      width: 60%;
-        flex: 2;
-}
-  .text-container {
-  flex: 1;
- margin-right: -10px;
-}
-  .guarantee {
-  font-size: 16px;
-}
-  .money-back {
-  font-size: 14px;
-}
-}
-
-
-.text-container {
-  flex: 2;
-  background-color: #ececec;
-  padding: 20px;
-}
-
-.image {
-  max-width: 100%;
-  height: auto;
-}
-
-.subtitle {
-
-}
-
-{% endstyle %}
-
-
-
-<div class="section-container">
+<div class="image-text-section">
   <div class="image-container">
-    <img src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/Dr-Banner.png?v=1712785854" alt="Imagen" class="image" width="400px" height="400px">
+    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/coco.jpg?v=1716324676" alt="Imagen">
   </div>
   <div class="text-container">
-    <div class="subtitle">Dr. Elizabeth Chen</div>
-    <div class="guarantee">45 Day Guarantee</div>
-    <div class="money-back">Guaranteed results or your money back</div>
+    <h2 class="section-title">Garantía Bealit por 30 días 
+</h2>
+    <p class="section-description">Resultados garantizados o se te devuelve el dinero.
+En Bealit, nuestra misión es Ofrecer los Mejores Productos del Mercado, con Ingredientes que han demostrado su eficacia durante nuestros más de 80 años de investigación. Hemos creado este Kit Revitalizante para garantizar que nuestros clientes tengan la Mejor Experiencia con Bealit. Contamos con una política de devolución de 45 días, lo que significa que usted dispone de ese plazo después de recibir su Kit para solicitar la devolución
+</p>
   </div>
 </div>
 
+<style>
+  .image-text-section {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Asegurar que el contenido no exceda los bordes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Espacio debajo de la sección */
+  }
+
+  .image-guarantee-container {
+    flex: 1;
+    min-width: 300px; /* Ancho mínimo para la imagen */
+  }
+
+  .image-guarantee-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .text-guarantee-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-guarantee-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .section-guarantee-description {
+    margin: 0;
+    color: #666;
+  }
+
+  @media (max-width: 768px) {
+    .image-guarantee-container {
+      width: 100%;
+    }
+
+    .text-guarantee-container {
+      width: 100%;
+    }
+  }
+</style>
+
 {% schema %}
   {
-    "name": "Dr Banner",
+    "name": "Guarantee",
       "tag": "section",
   "class": "section",
     "settings": [],
      "presets": [
     {
-      "name": "Dr Banner"
+      "name": "Guarantee"
     }
   ]
   }
