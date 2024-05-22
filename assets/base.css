@@ -3381,7 +3381,7 @@ details-disclosure > details {
 
 .timer_countdown {
   margin: 0 auto; /* Centra el contenido dentro de la barra */
-  display: inline-block;
+  display: flex;
 }
 
 .timer_countdown .timer_label {
