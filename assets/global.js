@@ -959,75 +959,73 @@ function setLocIdCookie(cname, cvalue, exdays) {
 
 
 // Countdown start
-if ($('#countdown').length) {
+if($('#countdown').length){
 
-    function setCookie(cname, cvalue, exdays) {
-        var d = new Date();
-        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-        var expires = "expires=" + d.toGMTString();
-        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  function setCookie(cname,cvalue,exdays) {
+   var d = new Date();
+   d.setTime(d.getTime() + (exdays*24*60*60*1000));
+   var expires = "expires=" + d.toGMTString();
+   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+
+  function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+      }
     }
+    return "";
+  }
 
-    function getCookie(cname) {
-        var name = cname + "=";
-        var decodedCookie = decodeURIComponent(document.cookie);
-        var ca = decodedCookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') {
-                c = c.substring(1);
-            }
-            if (c.indexOf(name) == 0) {
-                return c.substring(name.length, c.length);
-            }
+  function checkCookie($this) {
+    var usertime=getCookie("timercookies");
+    if (usertime == "") {
+      var setMinutes = 60 * 15
+      display = $this;
+      startTimer(setMinutes, display);
+    }else{
+	  var setMinutes = 60 * parseInt(usertime)
+      display = $this;
+      startTimer(setMinutes, display);
+    }
+  }
+
+  function startTimer(duration, display) {
+    var timer = duration, minutes, seconds, hours;
+    setInterval(function () {
+      minutes = parseInt(timer / 60, 10)
+      seconds = parseInt(timer % 60, 10);
+
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      if(minutes == 00){
+		setCookie("timercookies",15, 30);
+      }else{
+		setCookie("timercookies",minutes, 30);
+      }
+
+      display.find('.minutes').text(minutes);
+      display.find('.second').text(seconds);
+        if (--timer < 0) {
+          timer = 3000;
         }
-        return "";
-    }
+    }, 1000);
+  }
 
-    function checkCookie($this) {
-        var usertime = getCookie("timercookies");
-        if (usertime == "") {
-            // Do not set any time if the cookie is not present
-            display = $this;
-            // Optional: You can provide a default starting time here, or simply not start the timer
-            // var setMinutes = 60 * 0; // 0 minutes (not starting automatically)
-            // startTimer(setMinutes, display);
-        } else {
-            var setMinutes = 60 * parseInt(usertime);
-            display = $this;
-            startTimer(setMinutes, display);
-        }
-    }
-
-    function startTimer(duration, display) {
-        var timer = duration, minutes, seconds, hours;
-        setInterval(function () {
-            minutes = parseInt(timer / 60, 10)
-            seconds = parseInt(timer % 60, 10);
-
-            minutes = minutes < 10 ? "0" + minutes : minutes;
-            seconds = seconds < 10 ? "0" + seconds : seconds;
-
-            if (minutes == 00) {
-                setCookie("timercookies", 15, 30); // Reinicia el temporizador a 15 minutos
-            } else {
-                setCookie("timercookies", minutes, 30);
-            }
-
-            display.find('.minutes').text(minutes);
-            display.find('.second').text(seconds);
-            if (--timer < 0) {
-                timer = 3000;
-            }
-        }, 1000);
-    }
-
-    $(window).on("load", function () {
-        $(".timer_countdown").each(function () {
-            var $this = $(this);
-            checkCookie($this);
-            $this.removeClass("hidden");
-        });
+  $(window).on("load" , function(){
+    $(".timer_countdown").each(function(){
+		var $this = $(this);
+        checkCookie($this);
+        $this.removeClass("hidden");
     });
+  });
 }
 // Countdown end
