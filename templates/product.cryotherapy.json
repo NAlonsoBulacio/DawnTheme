@@ -1,59 +1,5 @@
 {
   "sections": {
-    "videos_list_JtjqVg": {
-      "type": "videos-list",
-      "blocks": {
-        "video_nKKnBp": {
-          "type": "video",
-          "settings": {
-            "heading": "",
-            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/419c907d27d94055ad0827518d01a46d.mp4",
-            "description": "",
-            "tag_text": ""
-          }
-        },
-        "video_DB3kxK": {
-          "type": "video",
-          "settings": {
-            "heading": "",
-            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/419c907d27d94055ad0827518d01a46d.mp4",
-            "description": "",
-            "tag_text": ""
-          }
-        },
-        "video_kmtrXc": {
-          "type": "video",
-          "settings": {
-            "heading": "",
-            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/419c907d27d94055ad0827518d01a46d.mp4",
-            "description": "",
-            "tag_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_nKKnBp",
-        "video_DB3kxK",
-        "video_kmtrXc"
-      ],
-      "settings": {
-        "title": "Video Testimonials",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "swipe_on_desktop": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -187,6 +133,60 @@
       "settings": {
       }
     },
+    "videos_list_JtjqVg": {
+      "type": "videos-list",
+      "blocks": {
+        "video_nKKnBp": {
+          "type": "video",
+          "settings": {
+            "heading": "",
+            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/419c907d27d94055ad0827518d01a46d.mp4",
+            "description": "",
+            "tag_text": ""
+          }
+        },
+        "video_DB3kxK": {
+          "type": "video",
+          "settings": {
+            "heading": "",
+            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/419c907d27d94055ad0827518d01a46d.mp4",
+            "description": "",
+            "tag_text": ""
+          }
+        },
+        "video_kmtrXc": {
+          "type": "video",
+          "settings": {
+            "heading": "",
+            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/419c907d27d94055ad0827518d01a46d.mp4",
+            "description": "",
+            "tag_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_nKKnBp",
+        "video_DB3kxK",
+        "video_kmtrXc"
+      ],
+      "settings": {
+        "title": "Video Testimonials",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "swipe_on_desktop": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "bealit_unique_4WKzUq": {
       "type": "bealit-unique",
       "settings": {
@@ -262,11 +262,11 @@
     }
   },
   "order": [
-    "videos_list_JtjqVg",
     "main",
     "banner_dr_Be3wKr",
     "items_benefits_fjDyjV",
     "percentage_p9dP8b",
+    "videos_list_JtjqVg",
     "bealit_unique_4WKzUq",
     "main_ingredients_GyAz7r",
     "ingredients_7qQDNL",
