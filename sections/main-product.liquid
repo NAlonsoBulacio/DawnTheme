@@ -522,11 +522,16 @@
                      </div>
                     {%- endif -%}
                   </div>
-                  {% comment %} Sticky Add to Cart Start {% endcomment %}
+{% comment %} Sticky Add to Cart Start {% endcomment %}
 
                   <div id="myModal" class="add-to-cart-form">
                     <div class="form_content">
-                      <div class="btn_add_to_cart"><input style="margin-bottom: 0px;" type="button" class="add-to-cart-button product-form__submit button button--full-width button--primary" value="Add To Cart"></div>
+                      <div class="btn_add_to_cart" style="border-radius: 5px; overflow: hidden;">
+                         <div class=" product-form__submit "> <button id="add_to_cart_variant" type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" onclick="document.querySelector('.shopify-payment-button__more-options').click();" style="margin-top: -5px; border: none; background: rgb(95, 206, 135); border-radius: 5px; font-size: 16px; font-weight: bold;">👉BUY IT NOW</button>
+                       <div style="display:none;">
+                        {{ form | payment_button }}
+                     </div> </div>               
+                      </div>
                     </div>
                   </div>
                   {% comment %} Sticky Add to Cart End {% endcomment %}
@@ -798,7 +803,7 @@ var waitForJQuery = setInterval(function () {
       if($(".product-form__submit").length > 1){
         $(window).on('scroll',function(){
           var topHeight = $('.product-form__submit').offset().top;
-          if ($(this).scrollTop() >= topHeight && window.innerWidth <= 750){
+          if ( window.innerWidth <= 2000){
             $('#myModal').css('display', 'block');
           }else{
             $('#myModal').css('display', 'none');
