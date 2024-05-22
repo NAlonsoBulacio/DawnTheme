@@ -3363,7 +3363,9 @@ details-disclosure > details {
 /* Countdown start */
 
 .timer_countdown_bar {
-
+ position: fixed; /* Mantén la barra fija en su posición */
+  top: 0; /* Ancla la barra en la parte superior de la pantalla */
+  left: 0; 
   width: 100%;
   background-color: #07A3BA; /* Cambia el color según prefieras */
   z-index: 9999; /* Asegúrate de que esté por encima de otros elementos */
