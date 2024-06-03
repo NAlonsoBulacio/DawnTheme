@@ -1412,7 +1412,7 @@ a.product__text {
 .circle {
   width: 80px; /* Diámetro del círculo */
   height: 80px; /* Diámetro del círculo */
-  border: 1px solid #018FE1; /* Borde gris oscuro */
+  border: 1px solid #555; /* Borde gris oscuro */
   border-radius: 50%;
   position: relative;
   display: flex;
