@@ -3347,7 +3347,7 @@ details-disclosure > details {
 @media screen and (min-width: 750px) {
   .most-popular-icon {
     position: absolute;
-    right: -2rem;
+    right: 2rem;
   }
 }
 
