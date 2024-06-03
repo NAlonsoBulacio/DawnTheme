@@ -3370,7 +3370,7 @@ details-disclosure > details {
 .timer_countdown_bar {
  
   width: 100%;
-  background-color: #07A3BA; /* Cambia el color según prefieras */
+  background-color: #018FE1; /* Cambia el color según prefieras */
   z-index: 9999; /* Asegúrate de que esté por encima de otros elementos */
   text-align: center;
   padding: 10px 0;
