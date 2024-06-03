@@ -3343,14 +3343,11 @@ details-disclosure > details {
   font-size: 1.2rem;
   margin-top: 0.5rem;
 }
-.most-popular-icon {
-    position: absolute;
-    right: -6rem;
-  }
+
 @media screen and (min-width: 750px) {
   .most-popular-icon {
     position: absolute;
-    right: -6rem;
+    right: -2rem;
   }
 }
 
