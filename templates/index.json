@@ -37,20 +37,30 @@
             "text_style": "body"
           }
         },
-        "1654875599d8199888-2": {
+        "caption_X3jchR": {
+          "type": "caption",
+          "settings": {
+            "caption": "puto",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "button_myG6XY": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/gle-vitamin-c-hydrating-boost-moisturizer"
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/products\/biotensor-eps-seafill-anti-arrugas-express"
           }
         }
       },
       "block_order": [
         "1654875599d8199888-0",
         "1654875599d8199888-1",
-        "1654875599d8199888-2"
+        "caption_X3jchR",
+        "button_myG6XY"
       ],
       "settings": {
+        "image_1": "shopify:\/\/shop_images\/Bealit-kit-revitalizante.jpg",
         "image_enable_lazy_loading": false,
         "enable_gap": true,
         "content_alignment": "start",
