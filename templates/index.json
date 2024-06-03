@@ -1,5 +1,79 @@
 {
   "sections": {
+    "16483536545d3c00e6": {
+      "type": "image-with-text",
+      "blocks": {
+        "1648353654f0866a08-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Piel Saludable = Piel Preciosa",
+            "heading_size": "h2"
+          }
+        },
+        "1648353654f0866a08-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>¿Sabías que la piel es el órgano más grande del cuerpo humano? Por eso es importante cuidarla y proporcionarle los mejores ingredientes, científicamente formulados y clínicamente probados, que ayudarán a mantenerla hidratada y conservar su elasticidad. <\/p><p><\/p><p>Bealit tiene un régimen completo que revitalizará tu piel y la mantendrá saludable durante el día y la noche.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "11b7172b-b18d-4cde-ac9e-fbf7d046ac66": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/gle-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "1648353654f0866a08-0",
+        "1648353654f0866a08-1",
+        "11b7172b-b18d-4cde-ac9e-fbf7d046ac66"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/35_y_gel_ojos3.jpg",
+        "full_width": true,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    },
+    "165161277157f4ac4b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "What's on SALE",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "description": "<p><\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_view_more": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -61,6 +135,7 @@
       ],
       "settings": {
         "image_1": "shopify:\/\/shop_images\/Bealit-kit-revitalizante.jpg",
+        "image_2": "shopify:\/\/shop_images\/bealit-kit-revitalizante-protector-solar-arena.jpg",
         "image_enable_lazy_loading": false,
         "enable_gap": true,
         "content_alignment": "start",
@@ -68,80 +143,6 @@
         "color_scheme": "background-1",
         "padding_top": 28,
         "padding_bottom": 0
-      }
-    },
-    "165161277157f4ac4b": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "What's on SALE",
-        "heading_size": "h2",
-        "heading_alignment": "left",
-        "description": "<p><\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "frontpage",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
-        "enable_view_more": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16483536545d3c00e6": {
-      "type": "image-with-text",
-      "blocks": {
-        "1648353654f0866a08-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Piel Saludable = Piel Preciosa",
-            "heading_size": "h2"
-          }
-        },
-        "1648353654f0866a08-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>¿Sabías que la piel es el órgano más grande del cuerpo humano? Por eso es importante cuidarla y proporcionarle los mejores ingredientes, científicamente formulados y clínicamente probados, que ayudarán a mantenerla hidratada y conservar su elasticidad. <\/p><p><\/p><p>Bealit tiene un régimen completo que revitalizará tu piel y la mantendrá saludable durante el día y la noche.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "11b7172b-b18d-4cde-ac9e-fbf7d046ac66": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/gle-bundle"
-          }
-        }
-      },
-      "block_order": [
-        "1648353654f0866a08-0",
-        "1648353654f0866a08-1",
-        "11b7172b-b18d-4cde-ac9e-fbf7d046ac66"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/35_y_gel_ojos3.jpg",
-        "full_width": true,
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 72
       }
     },
     "16530720219d1a529c": {
@@ -399,6 +400,7 @@
         "16516129725096666d-1",
         "16516129725096666d-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "accent-4",
         "full_width": true,
@@ -427,10 +429,10 @@
     }
   },
   "order": [
+    "16483536545d3c00e6",
+    "165161277157f4ac4b",
     "image_banner",
     "165487559918e6b056",
-    "165161277157f4ac4b",
-    "16483536545d3c00e6",
     "16530720219d1a529c",
     "166316913031300353",
     "16530731188f5b4640",
