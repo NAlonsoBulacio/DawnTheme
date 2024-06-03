@@ -513,7 +513,7 @@
                         </div>
                     </button>{% endcomment %}
                     {%- if block.settings.show_dynamic_checkout -%}
-                    <div style="background: #07A3BA; border-radius: 30px; overflow: hidden; display: flex; justify-content: center;">
+                    <div style="background: #018FE1; border-radius: 30px; overflow: hidden; display: flex; justify-content: center;">
                      <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" style="padding: 10px; display: flex; justify-content: center; margin-top: -5px; border: none; background: #07A3BA; border-radius: 30px; font-size: 16px; font-weight: bold;" onclick="document.querySelector('.shopify-payment-button__more-options').click();">
                        <div  style="display: flex; " ><p>👉 COMENZAR </p> <p id="variant-price"  style="margin-left: 5px;">${{ product.selected_or_first_available_variant.metafields.custom.variant_price }}mxn </p> <p id="variant-compare-price" style="margin-left: 5px; text-decoration: line-through;">${{ product.selected_or_first_available_variant.metafields.custom.variant_compare_price }}mxn</p></div>
                      </button>
@@ -527,7 +527,7 @@
 
                   <div id="myModal" class="add-to-cart-form">
                     <div class="form_content">
-                      <div class="btn_add_to_cart" style="border-radius: 5px; overflow: hidden; background: #07A3BA; border-radius: 30px; overflow: hidden;">
+                      <div class="btn_add_to_cart" style="border-radius: 5px; overflow: hidden; background: #018FE1; border-radius: 30px; overflow: hidden;">
                          <div class=" product-form__submit "> <button id="add_to_cart_variant" type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" onclick="document.querySelector('.shopify-payment-button__more-options').click();" style="padding:0px; background: #07A3BA; border-radius: 30px; overflow: hidden; border: none; border-radius: 5px; font-size: 16px; font-weight: bold;">
                           <div  style="display: flex; justify-content: center; items-align: center; " ><p>COMENZAR -</p> <p id="variant-sticky-price"  style="margin-left: 5px;">${{ product.selected_or_first_available_variant.metafields.custom.variant_price }}mxn </p> <p id="variant-sticky-compare-price" style="margin-left: 5px; text-decoration: line-through;">${{ product.selected_or_first_available_variant.metafields.custom.variant_compare_price }}mxn</p></div>
                          </button>
