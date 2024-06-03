@@ -110,28 +110,11 @@
             "text": "<p>Nuestro <strong>Kit Revitalizante<\/strong>ofrece una solución completa para combatir los signos del envejecimiento. Formulado con ingredientes de <strong>alta calidad<\/strong> y tecnología avanzada, este pack proporciona una piel rejuvenecida, firme y radiante.<\/p>",
             "text_style": "body"
           }
-        },
-        "caption_X3jchR": {
-          "type": "caption",
-          "settings": {
-            "caption": "puto",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "button_myG6XY": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "shopify:\/\/products\/biotensor-eps-seafill-anti-arrugas-express"
-          }
         }
       },
       "block_order": [
         "1654875599d8199888-0",
-        "1654875599d8199888-1",
-        "caption_X3jchR",
-        "button_myG6XY"
+        "1654875599d8199888-1"
       ],
       "settings": {
         "image_1": "shopify:\/\/shop_images\/Bealit-kit-revitalizante.jpg",
