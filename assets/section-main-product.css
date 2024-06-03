@@ -1418,7 +1418,7 @@ a.product__text {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: conic-gradient(#89adc9 calc(var(--percentage) * 1%), transparent 0); /* Relleno basado en porcentaje */
+  background: conic-gradient(#018FE1 calc(var(--percentage) * 1%), transparent 0); /* Relleno basado en porcentaje */
 }
 
 .circle::before {
