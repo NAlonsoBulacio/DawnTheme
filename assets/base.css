@@ -3521,7 +3521,13 @@ details-disclosure > details {
         .formula-button span {
             color: white; /* Color del texto en span */
         }
-
+ .subtitle__ingredients {
+            font-size: 14px;
+            font-weight: normal;
+            text-align: center;
+            margin: 0 20px;
+            color: #555; /* Color del texto del subtítulo */
+        }
   @media (max-width: 768px) {
     .ingredient-section {
       margin-left: 10px; /* Ajustar margen izquierdo para pantallas pequeñas */
