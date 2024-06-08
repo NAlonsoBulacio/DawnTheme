@@ -3503,6 +3503,7 @@ details-disclosure > details {
   }
 
 .formula-button {
+  width: auto;
             display: inline-block;
             background-color: #FF9B00; /* Color de fondo similar al de la imagen */
             color: white; /* Color del texto */
