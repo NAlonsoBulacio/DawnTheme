@@ -3525,8 +3525,8 @@ details-disclosure > details {
   }
 
   .ingredient-image-container {
-    width: 100px; /* Ancho del contenedor de la imagen */
-    height: 100px; /* Alto del contenedor de la imagen */
+    width: 130px; /* Ancho del contenedor de la imagen */
+    height: 130px; /* Alto del contenedor de la imagen */
     border-radius: 50%; /* Hacer el contenedor circular */
     overflow: hidden; /* Ocultar partes de la imagen que excedan los bordes del contenedor */
     display: flex;
