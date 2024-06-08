@@ -3559,7 +3559,7 @@ details-disclosure > details {
             font-weight: normal;
             text-align: center;
             color: #555; /* Color del texto del subtítulo */
-  margin: 0 10px;
+  margin: 10px;
         }
 
   .ingredient-image-container {
