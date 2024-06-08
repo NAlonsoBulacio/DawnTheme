@@ -3515,7 +3515,7 @@ details-disclosure > details {
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
             text-decoration: none; /* Sin subrayado */
             white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-            margin: 20px auto; /* Centra el botón horizontalmente */
+            margin: auto; /* Centra el botón horizontalmente */
         }
 
         .formula-button span {
