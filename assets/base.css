@@ -3491,7 +3491,9 @@ details-disclosure > details {
     justify-content: center;
     border-radius: 20px;
     overflow: hidden;
-  }
+    border: 2px solid #018FE1; /* Borde de 2px de color #018FE1 */
+}
+
 
   @media (max-width: 768px) {
     .ingredient-section {
