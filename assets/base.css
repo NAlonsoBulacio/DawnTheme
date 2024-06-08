@@ -3525,7 +3525,6 @@ details-disclosure > details {
             font-size: 16px;
             font-weight: normal;
             text-align: center;
-           
             color: #555; /* Color del texto del subtítulo */
         }
   @media (max-width: 768px) {
@@ -3554,6 +3553,13 @@ details-disclosure > details {
   .ingredient-description {
     font-size: 14px;
   }
+
+.subtitle__ingredients {
+            font-size: 12px;
+            font-weight: normal;
+            text-align: center;
+            color: #555; /* Color del texto del subtítulo */
+        }
 
   .ingredient-image-container {
     width: 100px; /* Ancho del contenedor de la imagen */
