@@ -3480,7 +3480,7 @@ details-disclosure > details {
 
 .ingredient-card {
     width: 45%; /* Ancho de cada tarjeta de ingrediente */
-  height: 300px;
+   height: 200px;
     background-color: #f9f9f9;
     padding: 20px;
     margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
@@ -3503,6 +3503,8 @@ details-disclosure > details {
 
     .ingredient-card {
       flex-basis: calc(100% - 20px); /* Ajustar el tamaño de la tarjeta para ocupar toda la pantalla menos los márgenes */
+         width: 100%; /* Ancho de cada tarjeta de ingrediente */
+   height:400px;
     }
   }
 
