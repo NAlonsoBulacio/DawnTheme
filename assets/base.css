@@ -3501,6 +3501,23 @@ details-disclosure > details {
   .ingredient-description {
     font-size: 16px;
   }
+.formula-button {
+            display: inline-block;
+            background-color: #FF9B00; /* Color de fondo similar al de la imagen */
+            color: white; /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+            border-radius: 25px; /* Bordes redondeados */
+            font-family: Arial, sans-serif; /* Fuente del texto */
+            font-size: 16px; /* Tamaño de la fuente */
+            font-weight: bold; /* Negrita */
+            text-align: center; /* Alineación del texto */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            text-decoration: none; /* Sin subrayado */
+        }
+
+        .formula-button span {
+            color: white; /* Color del texto en span */
+        }
   @media (max-width: 768px) {
     .ingredient-section {
       margin-left: 10px; /* Ajustar margen izquierdo para pantallas pequeñas */
