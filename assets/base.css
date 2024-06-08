@@ -3521,11 +3521,12 @@ details-disclosure > details {
   .ingredient-description {
     margin: 0;
     color: #666;
+    
   }
 
   .ingredient-image-container {
-    width: 120px; /* Ancho del contenedor de la imagen */
-    height: 120px; /* Alto del contenedor de la imagen */
+    width: 100px; /* Ancho del contenedor de la imagen */
+    height: 100px; /* Alto del contenedor de la imagen */
     border-radius: 50%; /* Hacer el contenedor circular */
     overflow: hidden; /* Ocultar partes de la imagen que excedan los bordes del contenedor */
     display: flex;
