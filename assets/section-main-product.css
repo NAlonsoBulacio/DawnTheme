@@ -1450,8 +1450,8 @@ a.product__text {
 }
 
 .description__percentage {
-  max-width: 130px;
-  font-size: 12px;
+  max-width: 200px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -1461,6 +1461,11 @@ a.product__text {
     justify-content: center;
     flex-wrap: nowrap;
   }
+  .description__percentage {
+  max-width: 130px;
+  font-size: 12px;
+}
+
 }
 
   @media screen and (min-width: 1200px) {
