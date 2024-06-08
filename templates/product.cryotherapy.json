@@ -1,61 +1,5 @@
 {
   "sections": {
-    "featured_in_PBG6DP": {
-      "type": "featured-in",
-      "blocks": {
-        "column_kVQEwX": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/coco.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_YayThF": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_znbXHy": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_kVQEwX",
-        "column_YayThF",
-        "column_znbXHy"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -245,6 +189,74 @@
         "padding_bottom": 36
       }
     },
+    "featured_in_PBG6DP": {
+      "type": "featured-in",
+      "blocks": {
+        "column_i3FfJF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Natural_Morning_Face_Wash-Beauty.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_znbXHy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/descarga.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_c37T7i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anti_Aging_Over_60_-_National_Laser_Institute_Medical_Spa.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LwwwaY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HIFU_Radio_Frequency.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_i3FfJF",
+        "column_znbXHy",
+        "column_c37T7i",
+        "column_LwwwaY"
+      ],
+      "settings": {
+        "title": "Antes y Despues",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
     "bealit_unique_4WKzUq": {
       "type": "bealit-unique",
       "settings": {
@@ -397,10 +409,10 @@
     }
   },
   "order": [
-    "featured_in_PBG6DP",
     "main",
     "items_benefits_fjDyjV",
     "videos_list_JtjqVg",
+    "featured_in_PBG6DP",
     "bealit_unique_4WKzUq",
     "featured_in_Y6hVw3",
     "video_NEmDTU",
