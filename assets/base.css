@@ -3498,6 +3498,9 @@ details-disclosure > details {
     width: 130px; /* Ancho del contenedor de la imagen */
     height: 130px; /* Alto del contenedor de la imagen */
   }
+  .ingredient-description {
+    font-size: 16px;
+  }
   @media (max-width: 768px) {
     .ingredient-section {
       margin-left: 10px; /* Ajustar margen izquierdo para pantallas pequeñas */
@@ -3507,7 +3510,7 @@ details-disclosure > details {
     .ingredient-card {
       flex-basis: calc(100% - 20px); /* Ajustar el tamaño de la tarjeta para ocupar toda la pantalla menos los márgenes */
          width: 100%; /* Ancho de cada tarjeta de ingrediente */
-   height:400px;
+       height:300px;
     }
   }
 
@@ -3522,8 +3525,6 @@ details-disclosure > details {
   }
 
   .ingredient-description {
-    margin: 0;
-    color: #666;
     font-size: 14px;
   }
 
