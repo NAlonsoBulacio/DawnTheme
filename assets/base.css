@@ -3494,7 +3494,10 @@ details-disclosure > details {
     overflow: hidden;
     border: 2px solid #018FE1; /* Borde de 2px de color #018FE1 */
 }
-
+ .ingredient-image-container {
+    width: 130px; /* Ancho del contenedor de la imagen */
+    height: 130px; /* Alto del contenedor de la imagen */
+  }
   @media (max-width: 768px) {
     .ingredient-section {
       margin-left: 10px; /* Ajustar margen izquierdo para pantallas pequeñas */
@@ -3521,12 +3524,12 @@ details-disclosure > details {
   .ingredient-description {
     margin: 0;
     color: #666;
-    
+    font-size: 14px;
   }
 
   .ingredient-image-container {
-    width: 130px; /* Ancho del contenedor de la imagen */
-    height: 130px; /* Alto del contenedor de la imagen */
+    width: 100px; /* Ancho del contenedor de la imagen */
+    height: 100px; /* Alto del contenedor de la imagen */
     border-radius: 50%; /* Hacer el contenedor circular */
     overflow: hidden; /* Ocultar partes de la imagen que excedan los bordes del contenedor */
     display: flex;
