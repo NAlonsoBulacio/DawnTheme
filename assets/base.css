@@ -3484,7 +3484,7 @@ details-disclosure > details {
     padding: 20px;
     margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
     box-sizing: border-box;
-    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada hacia abajo y derecha */
+    box-shadow: 4px 8px 16px rgba(1, 143, 225, 0.5); /* Sombra más pronunciada hacia abajo y derecha, color similar al borde */
     margin-left: 10px; /* Margen izquierdo entre tarjetas de ingredientes */
     margin-right: 10px; /* Margen derecho entre tarjetas de ingredientes */
     display: flex;
@@ -3493,8 +3493,6 @@ details-disclosure > details {
     overflow: hidden;
     border: 2px solid #018FE1; /* Borde de 2px de color #018FE1 */
 }
-
-
 
   @media (max-width: 768px) {
     .ingredient-section {
