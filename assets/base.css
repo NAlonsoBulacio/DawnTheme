@@ -3506,8 +3506,8 @@ details-disclosure > details {
             background-color: #FF9B00; /* Color de fondo similar al de la imagen */
             color: white; /* Color del texto */
             padding: 10px 20px; /* Espaciado interno */
-            border-radius: 25px; /* Bordes redondeados */
-            font-family: Arial, sans-serif; /* Fuente del texto */
+            border-radius: 5px; /* Bordes redondeados */
+          
             font-size: 16px; /* Tamaño de la fuente */
             font-weight: bold; /* Negrita */
             text-align: center; /* Alineación del texto */
