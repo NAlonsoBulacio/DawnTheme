@@ -3478,13 +3478,13 @@ details-disclosure > details {
     margin-right: 100px; /* Margen derecho para pantallas grandes */
   }
 
-  .ingredient-card {
+.ingredient-card {
     width: 45%; /* Ancho de cada tarjeta de ingrediente */
     background-color: #f9f9f9;
     padding: 20px;
     margin-bottom: 20px; /* Espacio entre las tarjetas de ingredientes */
     box-sizing: border-box;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada hacia abajo y derecha */
     margin-left: 10px; /* Margen izquierdo entre tarjetas de ingredientes */
     margin-right: 10px; /* Margen derecho entre tarjetas de ingredientes */
     display: flex;
@@ -3493,6 +3493,7 @@ details-disclosure > details {
     overflow: hidden;
     border: 2px solid #018FE1; /* Borde de 2px de color #018FE1 */
 }
+
 
 
   @media (max-width: 768px) {
