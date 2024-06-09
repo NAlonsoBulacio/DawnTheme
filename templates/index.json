@@ -11,6 +11,22 @@
         "image": "shopify:\/\/shop_images\/Bealit-kit-revitalizante.jpg"
       }
     },
+    "items_benefits_t6QqcR": {
+      "type": "items-benefits",
+      "settings": {
+      }
+    },
+    "banner_dr_N3qH7p": {
+      "type": "banner-dr",
+      "settings": {
+      }
+    },
+    "testimonial_section_QgtthW": {
+      "type": "testimonial-section",
+      "settings": {
+        "image_url": ""
+      }
+    },
     "16483536545d3c00e6": {
       "type": "image-with-text",
       "blocks": {
@@ -425,6 +441,9 @@
   },
   "order": [
     "hero_section_i68rAi",
+    "items_benefits_t6QqcR",
+    "banner_dr_N3qH7p",
+    "testimonial_section_QgtthW",
     "16483536545d3c00e6",
     "165161277157f4ac4b",
     "image_banner",
