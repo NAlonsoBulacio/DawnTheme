@@ -3516,6 +3516,7 @@ details-disclosure > details {
             text-decoration: none; /* Sin subrayado */
             white-space: nowrap; /* Evita que el texto se divida en varias líneas */
             margin: auto; /* Centra el botón horizontalmente */
+    margin-bottom: 10px;
         }
 
         .formula-button span {
