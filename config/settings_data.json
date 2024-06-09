@@ -182,22 +182,15 @@
           "fa9800bd-50d9-4665-be24-69a5248350a0": {
             "type": "text",
             "settings": {
-              "heading": "About",
-              "subtext": "",
+              "heading": "BEALIT",
+              "subtext": "<p>Texto sobre Bealit<\/p>",
               "custom_liquid": ""
             }
           },
           "1af535dc-9a1c-4452-b050-270bc8df8895": {
             "type": "link_list",
             "settings": {
-              "heading": "Links",
-              "menu": "footer"
-            }
-          },
-          "a5b62bb9-1a89-4436-b199-35a8913f4e4f": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Help Center",
+              "heading": "Centro de Ayuda",
               "menu": "footer"
             }
           },
@@ -209,22 +202,13 @@
               "subtext": "",
               "custom_liquid": "<div id=\"bizjudge-reviews-widget-badge\" style=\"--bizjudge-widget-badge-container-shadow: none; --bizjudge-widget-border-radius: 0px; --bizjudge-widget-font-family: Helvetica; --bizjudge-widget-stars-font-family: system-ui; --bizjudge-widget-badge-logo-fill-color: #000000; --bizjudge-widget-primary-background: #EDEDED; --bizjudge-widget-primary-foreground: #ededed; --bizjudge-widget-primary-border-color: #EDEDED; --bizjudge-widget-filled-stars-background: #FBD033; --bizjudge-widget-missing-stars-background: #B6B6B6;\" data-widget-type=\"rating-and-reviews-vertical\" data-business-id=\"a5b18ef3-87fc-478f-887f-69f8b1ebbd94\"><a href=\"\/\/bizjudge.com\/reviews\/gleskin.com\/\" rel=\"noopener\" target=\"_blank\">gleskin.com<\/a><\/div>"
             }
-          },
-          "link_list_fdnPam": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
           }
         },
         "block_order": [
           "9ae195cd-b83b-44af-aeb7-49b1c608e812",
           "fa9800bd-50d9-4665-be24-69a5248350a0",
           "1af535dc-9a1c-4452-b050-270bc8df8895",
-          "a5b62bb9-1a89-4436-b199-35a8913f4e4f",
-          "a562b518-b561-448f-9c78-7c803f65b360",
-          "link_list_fdnPam"
+          "a562b518-b561-448f-9c78-7c803f65b360"
         ],
         "settings": {
           "color_scheme": "background-2",
