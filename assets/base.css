@@ -3565,6 +3565,7 @@ details-disclosure > details {
     text-align: center;
     color: #555;
     margin: 20px 130px;
+  text-wrap: balance;
         }
 
   .ingredient-image-container {
