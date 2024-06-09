@@ -1511,7 +1511,7 @@ a.product__text {
   @media (max-width: 768px) {
     .additional-logos {
      
-      align-items: center;
+      align-items: start;
     }
 
     .logo-item {
