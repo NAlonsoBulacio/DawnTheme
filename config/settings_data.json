@@ -198,7 +198,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Help Center",
-              "menu": ""
+              "menu": "footer"
             }
           },
           "a562b518-b561-448f-9c78-7c803f65b360": {
