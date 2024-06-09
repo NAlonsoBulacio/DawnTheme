@@ -54,30 +54,12 @@
             "benefits": "{{ product.metafields.my_fields.benefits }}"
           }
         },
-        "collapsible_tab_9BWcRU": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Ingredientes",
-            "icon": "leaf",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible_tab_8GCm3W": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": " ¿Cómo funciona?",
-            "icon": "question_mark",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible_tab_YhUFKE": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "¿Cómo se utiliza?",
             "icon": "star",
-            "content": "",
+            "content": "<p><strong> <\/strong>Se recomienda aplicar la crema Dermacel en forma generosa por la noche durante tres días antes de aplicar el Biotensor. Esto le dará la humectación adecuada a la piel y permitirá que el tensor actúe de una forma más efectiva. Todos los productos de este kit brindan un resultado positivo en la piel, pero para que sea más efectivo se recomienda seguir esta sencilla rutina de uso.<\/p><p>Por la mañana: Con el rostro limpio, aplicar una mezcla de Biotensor y Liposomas sobre la palma de la mano y hacer masaje suave hacia arriba y hacia afuera del rostro en las partes que se quiera reparar y alisar, incluyendo cara, cuello y escote. El Biotensor se puede usar todos los días. Posteriormente aplicar el Protector Solar en crema para proteger la piel de los efectos dañinos del sol. Si se expone por mucho tiempo al sol durante el día, se recomienda reaplicar el Protector Solar cada hora. Se puede maquillar posteriormente una vez que haya penetrado bien el producto.<\/p><p>Por la noche: Limpiar la piel con el Kit de Limpieza Bealit para que la piel quede libre de maquillaje y contaminación. Posteriormente aplique el Gel Contorno de Ojos con Ácido Hialurónico en combinación con la crema Dermacel Células Madre, cubriendo bien el rostro, cuello y escote. Esto nutrirá la piel para que esté bien humectada para el día siguiente.<\/p>",
             "page": ""
           }
         },
@@ -86,7 +68,7 @@
           "settings": {
             "heading": "Envíos",
             "icon": "truck",
-            "content": "",
+            "content": "<p>El procesamiento de su pedido toma entre 1 y 3 días hábiles antes del envío. Una vez enviados los productos, el tiempo estimado de entrega dentro es de 3 a 7 días.<\/p>",
             "page": ""
           }
         },
@@ -110,8 +92,6 @@
         "cdfc8ada-677c-4465-aaf2-824f42cc7ec2",
         "buy_buttons",
         "benefits",
-        "collapsible_tab_9BWcRU",
-        "collapsible_tab_8GCm3W",
         "collapsible_tab_YhUFKE",
         "collapsible_tab_nJxFbL",
         "collapsible_tab_4knH4r"
