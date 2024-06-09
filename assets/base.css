@@ -3532,6 +3532,7 @@ details-disclosure > details {
             font-weight: normal;
             text-align: center;
             color: #555; /* Color del texto del subtítulo */
+       margin: 20px 130px;
         }
   @media (max-width: 768px) {
     .ingredient-section {
@@ -3565,7 +3566,7 @@ details-disclosure > details {
     font-weight: 400;
     text-align: center;
     color: #555;
-    margin: 20px 130px;
+    margin: 0px;
   text-wrap: balance;
         }
 
