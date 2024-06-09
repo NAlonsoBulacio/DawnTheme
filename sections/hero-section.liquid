@@ -1,6 +1,169 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<div class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">{{ section.settings.title }}</h1>
+    <p class="hero-subtitle">{{ section.settings.subtitle }}</p>
+    <a href="{{ section.settings.button_url }}" class="hero-button">{{ section.settings.button_text }}</a>
+    <blockquote class="hero-quote">
+      <p>"{{ section.settings.quote }}"</p>
+      <cite>{{ section.settings.quote_author }}</cite>
+    </blockquote>
+  </div>
+  <div class="hero-image">
+    <img src="{{ section.settings.image }}" alt="Image">
+  </div>
+</div>
+
+<style>
+  .hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 20px 0;
   }
+
+  .hero-content {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .hero-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  .hero-quote {
+    font-size: 16px;
+    color: #666;
+    font-style: italic;
+    margin-top: 20px;
+  }
+
+  .hero-quote p {
+    margin: 0;
+  }
+
+  .hero-quote cite {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .hero-image {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .hero-content, .hero-image {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .hero-title {
+      font-size: 32px;
+    }
+
+    .hero-subtitle {
+      font-size: 16px;
+    }
+
+    .hero-button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+
+    .hero-quote {
+      font-size: 14px;
+    }
+
+    .hero-quote cite {
+      text-align: center;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Hero Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "El Pack Anti-Aging Infalible"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "La solución más efectiva contra el envejecimiento, creada por el renombrado, cirujano plástico Dr. Jorge Planas"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Empieza Hoy"
+    },
+    {
+      "type": "textarea",
+      "id": "quote",
+      "label": "Quote",
+      "default": "Nada más ponérmela, ya me noto una piel brutal... Habéis creado un producto muy muy bueno. Alta cosmética, se nota"
+    },
+    {
+      "type": "text",
+      "id": "quote_author",
+      "label": "Quote Author",
+      "default": "Zaida Miranda"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Section"
+    }
+  ]
+}
 {% endschema %}
