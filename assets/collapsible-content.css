@@ -89,9 +89,7 @@
 
   padding: 1.5rem;
 }
-.accordion__content p {
-    color: red;
-}
+
 
 .collapsible-row-layout .accordion .accordion__content {
   padding-top: 0;
