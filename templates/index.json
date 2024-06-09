@@ -1,10 +1,5 @@
 {
   "sections": {
-    "masterclass_section_aiiJzw": {
-      "type": "masterclass-section",
-      "settings": {
-      }
-    },
     "hero_section_i68rAi": {
       "type": "hero-section",
       "settings": {
@@ -78,6 +73,11 @@
         "padding_bottom": 32
       }
     },
+    "masterclass_section_aiiJzw": {
+      "type": "masterclass-section",
+      "settings": {
+      }
+    },
     "165161277157f4ac4b": {
       "type": "featured-collection",
       "settings": {
@@ -105,26 +105,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image_url": "shopify:\/\/collections\/shop",
-        "image_enable_lazy_loading": false,
-        "image_mobile_enable_lazy_loading": false,
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "bottom-left",
-        "show_text_box": false,
-        "text_box_max_width": 89,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "165487559918e6b056": {
@@ -445,14 +425,13 @@
     }
   },
   "order": [
-    "masterclass_section_aiiJzw",
     "hero_section_i68rAi",
     "items_benefits_t6QqcR",
     "banner_dr_N3qH7p",
     "testimonial_section_QgtthW",
     "16483536545d3c00e6",
+    "masterclass_section_aiiJzw",
     "165161277157f4ac4b",
-    "image_banner",
     "165487559918e6b056",
     "16530720219d1a529c",
     "166316913031300353",
