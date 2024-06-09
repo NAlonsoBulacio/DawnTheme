@@ -86,7 +86,7 @@
 
 .collapsible-row-layout .accordion summary,
 .collapsible-row-layout .accordion .accordion__content {
-  color: gray;
+  color: red;
   padding: 1.5rem;
 }
 
