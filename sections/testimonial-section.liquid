@@ -1,6 +1,118 @@
+<div class="testimonial-section">
+  <div class="testimonial-content">
+    <h2 class="testimonial-title">Look At How Others Are Loving Their Bealit</h2>
+    <p class="testimonial-description">These women are actual Bealit customers that have seen results with consistent use of [Your Brand]'s [Product Name]!</p>
+    <a href="#" class="testimonial-button">CLAIM OFFER</a>
+    <p class="testimonial-rating">⭐⭐⭐⭐⭐ Rated 4.9/5 by 175,000+ Happy Customers</p>
+  </div>
+  <div class="testimonial-image">
+    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/ANTES_DESPUES_FACEBOOK.png?v=1717941452" alt="Testimonials">
+  </div>
+</div>
+
+<style>
+  .testimonial-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 80px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+
+  .testimonial-content {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .testimonial-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6c63ff;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-rating {
+    font-size: 14px;
+    color: #333;
+  }
+
+  .testimonial-image {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .testimonial-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .testimonial-section {
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .testimonial-content, .testimonial-image {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .testimonial-title {
+      font-size: 24px;
+    }
+
+    .testimonial-button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+
+    .testimonial-description {
+      font-size: 14px;
+    }
+
+    .testimonial-rating {
+      font-size: 12px;
+    }
+  }
+</style>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Testimonial Section",
+    "settings": [
+      {
+        "type": "url",
+        "id": "image_url",
+        "label": "Image URL"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Testimonial Section"
+      }
+    ]
   }
 {% endschema %}
