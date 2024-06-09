@@ -129,6 +129,12 @@
         "padding_bottom": 56
       }
     },
+    "testimonial_section_NUfMAT": {
+      "type": "testimonial-section",
+      "settings": {
+        "image_url": ""
+      }
+    },
     "items_benefits_fjDyjV": {
       "type": "items-benefits",
       "settings": {
@@ -410,6 +416,7 @@
   },
   "order": [
     "main",
+    "testimonial_section_NUfMAT",
     "items_benefits_fjDyjV",
     "videos_list_JtjqVg",
     "featured_in_PBG6DP",
