@@ -1,5 +1,10 @@
 {
   "sections": {
+    "banner_dr_thRdrn": {
+      "type": "banner-dr",
+      "settings": {
+      }
+    },
     "16483536545d3c00e6": {
       "type": "image-with-text",
       "blocks": {
@@ -413,6 +418,7 @@
     }
   },
   "order": [
+    "banner_dr_thRdrn",
     "16483536545d3c00e6",
     "165161277157f4ac4b",
     "image_banner",
