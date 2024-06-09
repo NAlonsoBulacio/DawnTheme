@@ -89,7 +89,7 @@
 
   padding: 1.5rem;
 }
-.accordion__content {
+.accordion__content p {
     color: red;
 }
 
