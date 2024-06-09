@@ -3555,11 +3555,11 @@ details-disclosure > details {
   }
 
 .subtitle__ingredients {
-            font-size: 12px;
-            font-weight: normal;
-            text-align: center;
-            color: #555; /* Color del texto del subtítulo */
-  margin: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #555;
+    margin: 20px 130px;
         }
 
   .ingredient-image-container {
