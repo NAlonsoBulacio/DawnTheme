@@ -77,7 +77,7 @@
           "settings": {
             "heading": " Política de Reembolso",
             "icon": "return",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.policy_faq | metafield_tag }}<\/p>",
             "page": ""
           }
         }
