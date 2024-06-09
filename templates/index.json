@@ -1,5 +1,10 @@
 {
   "sections": {
+    "masterclass_section_aiiJzw": {
+      "type": "masterclass-section",
+      "settings": {
+      }
+    },
     "hero_section_i68rAi": {
       "type": "hero-section",
       "settings": {
@@ -440,6 +445,7 @@
     }
   },
   "order": [
+    "masterclass_section_aiiJzw",
     "hero_section_i68rAi",
     "items_benefits_t6QqcR",
     "banner_dr_N3qH7p",

@@ -1,6 +1,117 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<div class="video-section">
+  <div class="video-header">
+    <h2 class="video-header-title">APRENDE</h2>
+    <h1 class="video-header-subtitle">Masterclass Gratuita</h1>
+  </div>
+  <div class="video-content">
+    <div class="video-text">
+      <h2 class="video-text-title">Los 3 Secretos contra el Envejecimiento de las Top Celebrities</h2>
+    </div>
+    <div class="video-wrapper">
+      <a href="https://landing-bealit.vercel.app/video" target="_blank">
+        <video autoplay muted loop playsinline class="video-element">
+          <source src="https://res.cloudinary.com/de2r6mtda/video/upload/v1716496259/Bealit/Dise%C3%B1o_sin_t%C3%ADtulo_1_ijbhrb.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .video-section {
+    background-color: #d9e2ff; /* Fondo azul claro */
+    padding: 40px 20px;
+    text-align: center;
   }
+
+  .video-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .video-header-title {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+
+  .video-header-subtitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+
+  .video-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .video-text {
+    background-color: #0066ff; /* Fondo azul oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    flex: 1;
+    max-width: 600px;
+  }
+
+  .video-text-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .video-wrapper {
+    flex: 1;
+    max-width: 600px;
+    position: relative;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+
+  .video-wrapper a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-element {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .video-content {
+      flex-direction: column;
+    }
+
+    .video-header-subtitle {
+      font-size: 28px;
+    }
+
+    .video-text-title {
+      font-size: 20px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Video Section",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Video Section"
+    }
+  ]
+}
 {% endschema %}
