@@ -15,7 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* Ajuste para espacio entre contenido y imagen */
     padding: 40px 80px;
     background-color: #fff;
     border-radius: 15px;
@@ -27,6 +27,7 @@
     flex: 1;
     max-width: 600px;
     text-align: center;
+    margin-right: 20px; /* Espacio a la derecha para separar de la imagen */
   }
 
   .testimonial-title {
@@ -73,6 +74,11 @@
     .testimonial-section {
       flex-direction: column;
       padding: 20px;
+    }
+
+    .testimonial-content {
+      margin-right: 0; /* Eliminar margen en pantallas pequeñas */
+      margin-bottom: 20px; /* Espacio debajo del contenido en pantallas pequeñas */
     }
 
     .testimonial-content, .testimonial-image {
