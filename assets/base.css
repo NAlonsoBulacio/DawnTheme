@@ -3466,7 +3466,8 @@ details-disclosure > details {
 .ingredients__section__ {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
+  margin: 20px 0;
 }
 
   .ingredient-section {
