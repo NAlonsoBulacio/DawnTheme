@@ -3,7 +3,13 @@
     <h2 class="testimonial-title">Comentarios que nos llegan a diario por este KIT</h2>
     <p class="testimonial-description">¡Estas mujeres son clientas de Bealit que han visto resultados con nuestro KIT REVITALIZANTE!</p>
     <div class="checkout-button-container">
-      {% render 'custom-checkout-button' %}
+      {% if template contains 'product.cryotherapy' %}
+        {% render 'custom-checkout-button' %}
+      {% else %}
+        <a href="https://bealit.mx/products/biotensor-eps-seafill-anti-arrugas-express" class="shopify-payment-button__button shopify-payment-button__button--unbranded" style="display: block; padding: 10px; background: #018FE1; border-radius: 30px; text-align: center; color: white; font-size: 13px; font-weight: bold; text-decoration: none;">
+          👉 COMENZAR
+        </a>
+      {% endif %}
     </div>
     <p class="testimonial-rating">⭐⭐⭐⭐⭐ Rated 4.8/5 by 5,000+ Clientes Felices</p>
   </div>
@@ -102,19 +108,19 @@
 </style>
 
 {% schema %}
-  {
-    "name": "Testimonial Section",
-    "settings": [
-      {
-        "type": "url",
-        "id": "image_url",
-        "label": "Image URL"
-      }
-    ],
-    "presets": [
-      {
-        "name": "Testimonial Section"
-      }
-    ]
-  }
+{
+  "name": "Testimonial Section",
+  "settings": [
+    {
+      "type": "url",
+      "id": "image_url",
+      "label": "Image URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonial Section"
+    }
+  ]
+}
 {% endschema %}
