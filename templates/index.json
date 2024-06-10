@@ -16,15 +16,15 @@
       "settings": {
       }
     },
-    "banner_dr_N3qH7p": {
-      "type": "banner-dr",
-      "settings": {
-      }
-    },
     "testimonial_section_QgtthW": {
       "type": "testimonial-section",
       "settings": {
         "image_url": ""
+      }
+    },
+    "banner_dr_N3qH7p": {
+      "type": "banner-dr",
+      "settings": {
       }
     },
     "16483536545d3c00e6": {
@@ -220,8 +220,8 @@
   "order": [
     "hero_section_i68rAi",
     "items_benefits_t6QqcR",
-    "banner_dr_N3qH7p",
     "testimonial_section_QgtthW",
+    "banner_dr_N3qH7p",
     "16483536545d3c00e6",
     "masterclass_section_aiiJzw",
     "165161277157f4ac4b",
