@@ -148,6 +148,8 @@
           </summary>
           <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
             <div class="menu-drawer__inner-container">
+
+                  {% comment %}  
               <div class="menu-drawer__navigation-container">
                 <nav class="menu-drawer__navigation">
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
@@ -212,6 +214,8 @@
                     {%- endfor -%}
                   </ul>
                 </nav>
+{% endcomment %}
+                
                 <div class="menu-drawer__utility-links">
                
                   {%- if shop.customer_accounts_enabled -%}
@@ -535,7 +539,7 @@
           </div>
         {%- endform -%}
       </localization-form>
-      {% endcomment %}
+  {% endcomment %}
       {%- if section.settings.show_search_icon -%}
         <details-modal class="header__search">
           <details>
