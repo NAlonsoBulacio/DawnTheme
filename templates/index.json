@@ -80,6 +80,7 @@
     },
     "165161277157f4ac4b": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "En Oferta",
         "heading_size": "h2",
@@ -129,6 +130,7 @@
         "1654875599d8199888-0",
         "1654875599d8199888-1"
       ],
+      "disabled": true,
       "settings": {
         "image_1": "shopify:\/\/shop_images\/Bealit-kit-revitalizante.jpg",
         "image_2": "shopify:\/\/shop_images\/bealit-kit-revitalizante-protector-solar-arena.jpg",
@@ -148,15 +150,6 @@
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "165307312055b1501f": {
-      "type": "instafeed",
-      "settings": {
-        "heading_font": "helvetica_n4",
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
       }
     },
     "1651612972990f06d7": {
@@ -196,6 +189,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -224,7 +218,6 @@
     "165161277157f4ac4b",
     "165487559918e6b056",
     "16530768150d6ccd38",
-    "165307312055b1501f",
     "1651612972990f06d7",
     "product-recommendations"
   ]
