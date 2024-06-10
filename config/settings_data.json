@@ -157,7 +157,7 @@
           "logo_width": 100,
           "logo_position": "middle-center",
           "full_width_header": true,
-          "menu": "main-menu",
+          "menu": "main-header",
           "menu_type_desktop": "dropdown",
           "show_search_icon": false,
           "show_line_separator": true,
