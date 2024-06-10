@@ -173,8 +173,8 @@
           "9ae195cd-b83b-44af-aeb7-49b1c608e812": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/coco.jpg",
-              "image_width": 150,
+              "image": "shopify:\/\/shop_images\/LOGO_BEALIT.png",
+              "image_width": 200,
               "alignment": "center",
               "custom_liquid": ""
             }
@@ -183,7 +183,7 @@
             "type": "text",
             "settings": {
               "heading": "BEALIT",
-              "subtext": "<p>Texto sobre Bealit<\/p>",
+              "subtext": "<p>Desarrollado por expertos en dermatología, Bealit ofrece soluciones avanzadas para el cuidado de la piel, utilizando ingredientes de alta calidad para combatir el envejecimiento y mejorar la salud de tu piel.<\/p>",
               "custom_liquid": ""
             }
           },
@@ -202,16 +202,24 @@
               "subtext": "",
               "custom_liquid": "<div id=\"bizjudge-reviews-widget-badge\" style=\"--bizjudge-widget-badge-container-shadow: none; --bizjudge-widget-border-radius: 0px; --bizjudge-widget-font-family: Helvetica; --bizjudge-widget-stars-font-family: system-ui; --bizjudge-widget-badge-logo-fill-color: #000000; --bizjudge-widget-primary-background: #EDEDED; --bizjudge-widget-primary-foreground: #ededed; --bizjudge-widget-primary-border-color: #EDEDED; --bizjudge-widget-filled-stars-background: #FBD033; --bizjudge-widget-missing-stars-background: #B6B6B6;\" data-widget-type=\"rating-and-reviews-vertical\" data-business-id=\"a5b18ef3-87fc-478f-887f-69f8b1ebbd94\"><a href=\"\/\/bizjudge.com\/reviews\/gleskin.com\/\" rel=\"noopener\" target=\"_blank\">gleskin.com<\/a><\/div>"
             }
+          },
+          "link_list_c3bWzc": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Contacto",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
           "9ae195cd-b83b-44af-aeb7-49b1c608e812",
           "fa9800bd-50d9-4665-be24-69a5248350a0",
           "1af535dc-9a1c-4452-b050-270bc8df8895",
-          "a562b518-b561-448f-9c78-7c803f65b360"
+          "a562b518-b561-448f-9c78-7c803f65b360",
+          "link_list_c3bWzc"
         ],
         "settings": {
-          "color_scheme": "background-2",
+          "color_scheme": "accent-2",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
