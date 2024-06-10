@@ -45,7 +45,7 @@
 
   .video-content {
     display: flex;
-    flex-direction: col;
+    flex-direction: column; /* Cambiar a columna */
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -55,8 +55,7 @@
     padding: 20px;
     border-radius: 10px;
     color: #018FE1;
-    flex: 1;
-    max-width: 600px;
+    max-width: 100%; /* Ocupa el ancho completo */
   }
 
   .video-text-title {
@@ -66,10 +65,9 @@
   }
 
   .video-wrapper {
-    flex: 1;
-    max-width: 600px;
+    max-width: 100%; /* Ocupa el ancho completo */
     position: relative;
-    padding-top: 27.25%; /* 16:9 Aspect Ratio */
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
   }
 
   .video-wrapper a {
@@ -78,19 +76,19 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   .video-element {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   @media (max-width: 768px) {
     .video-content {
-      flex-direction: wrap;
+      flex-direction: column; /* Mantener la dirección en columna */
     }
 
     .video-header-subtitle {
