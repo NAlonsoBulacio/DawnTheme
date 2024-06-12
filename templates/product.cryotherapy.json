@@ -59,7 +59,7 @@
           "settings": {
             "heading": "¿Cómo se utiliza?",
             "icon": "star",
-            "content": "<p><strong> <\/strong>Cada uno de los elementos de este kit tiene una función muy específica para el tratamiento de las manchas. <\/p><p>El Protector Solar se debe usar todos los días antes de salir de su domicilio para proteger la piel y evitar la aparición de nuevas manchas. Al ser en base crema, también sirve como crema humectante. Hay que re-aplicar con cada hora de exposición al sol. <\/p><p>Beauty Clear se puede usar como crema de noche, particularmente en las partes donde se presenten manchas. Este producto ayudará a la reducción de las manchas y a aclarar la piel. <\/p><p>El Ácido Glicólico es un exfoliador suave que se puede usar una vez a la semana. Se aplica sobre la cara y manchas del cuerpo y se deja penetrar. No hay que enjuagar. <\/p><p>El Gel Exfoliador con Cáscara de Nuez es un efectivo exfoliador físico. Se aplica una vez por semana y se da masaje en las partes donde se quiere exfoliar. Se puede aplicar en cara y cuerpo. <\/p><p>Las micro cáscaras de nuez hacen el efecto exfoliador, por lo cual hay que tener cuidado de no aplicar demasiada fuerza y que la piel se lastime.<\/p>",
+            "content": "<p>{{ product.metafields.custom.instructions.value }}<\/p>",
             "page": ""
           }
         },
