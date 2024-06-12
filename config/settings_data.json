@@ -207,7 +207,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Contacto",
-              "menu": "footer"
+              "menu": "contacto"
             }
           }
         },
