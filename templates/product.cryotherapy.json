@@ -59,7 +59,7 @@
           "settings": {
             "heading": "¿Cómo se utiliza?",
             "icon": "star",
-            "content": "<p>{{ product.metafields.custom.instructions.value }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.instruction | metafield_tag }}<\/p>",
             "page": ""
           }
         },
