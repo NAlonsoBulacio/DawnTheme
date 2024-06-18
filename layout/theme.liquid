@@ -60,7 +60,7 @@
       
 
         // Evento de Inicio de Compra
-        if (window.location.pathname === '/checkout') {
+        if (window.location.pathname === '/checkouts') {
           sendEventToAPI({
             name: 'InitiateCheckout',
             id: Shopify.checkout.order_id,
@@ -77,23 +77,6 @@
         }
       });
 
-       // Evento de Inicio de Compra
-        if (window.location.pathname.includes('/checkout')) {
-          sendEventToAPI({
-            name: 'InitiateCheckout',
-            id: Shopify.checkout.order_id,
-            email: Shopify.checkout.email,
-            currency: Shopify.checkout.currency,
-            value: Shopify.checkout.total_price
-          });
-          fbq('track', 'InitiateCheckout', {
-            content_ids: [Shopify.checkout.order_id],
-            content_type: 'product',
-            value: Shopify.checkout.total_price,
-            currency: Shopify.checkout.currency
-          });
-        }
-      });
     </script>
     
     <meta charset="utf-8">
