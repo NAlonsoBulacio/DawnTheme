@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -68,7 +77,7 @@
           "settings": {
             "heading": "Envíos",
             "icon": "truck",
-            "content": "<p>El procesamiento de su pedido toma entre 1 y 3 días hábiles antes del envío. Una vez enviados los productos, el tiempo estimado de entrega dentro es de 3 a 7 días.<\/p>",
+            "content": "<p>Tu Paquete llegará en un plazo de 2 a 3 días a través de nuestro envío express.<\/p>",
             "page": ""
           }
         },
