@@ -2,83 +2,13 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
 
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window,document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1240426310253192');
-      fbq('track', 'PageView');
-
-      async function sendEventToAPI(event) {
-        const data = {
-          data: [{
-            event_name: event.name,
-            event_time: Math.floor(new Date() / 1000),
-            action_source: 'website',
-            event_id: event.id,
-            event_source_url: window.location.href,
-            user_data: {
-              em: event.email,
-            },
-            custom_data: {
-              currency: event.currency,
-              value: event.value,
-            },
-          }]
-        };
-
-        const response = await fetch('https://graph.facebook.com/v11.0/1240426310253192/events', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer EAAXobxsiKZCIBOwUqaH8bEYBZBaf1wXyZCZCPIIwqlbjTZARomeThDEQ2DFvVx6Tm3TfaF4R2xdOe3fZAUvK7xxCLLyTajdo0Rtgq2BtVM77bXye2y0E7fw3qK1fyGYKfP7f5o5VgkAKBeF3heDA5DIhq7ZArZBiLeF9kVOHbUlmdlMhYbv7PWxZAeHlS1ZC6eTZBr66wZDZD'
-          },
-          body: JSON.stringify(data)
-        });
-        const result = await response.json();
-        console.log(result);
-      }
-
-      document.addEventListener('DOMContentLoaded', function() {
-        // Evento de Compra
-        if (window.Shopify && Shopify.checkout) {
-          const order = Shopify.checkout;
-          sendEventToAPI({
-            name: 'Purchase',
-            id: order.order_id,
-            email: order.email,
-            currency: order.currency,
-            value: order.total_price
-          });
-        }
-
-      
-
-            // Evento de Inicio de Compra
-        if (window.location.pathname.includes('/checkouts') && !window.location.pathname.includes('/thank_you')) {
-          const checkout = Shopify.checkout;
-          sendEventToAPI({
-            name: 'InitiateCheckout',
-            id: checkout.order_id || new Date().getTime(), // Usa order_id si está disponible, de lo contrario genera un ID temporal
-            email: checkout.email,
-            currency: checkout.currency,
-            value: checkout.total_price
-          });
-          fbq('track', 'InitiateCheckout', {
-            content_ids: [checkout.order_id || new Date().getTime()],
-            content_type: 'product',
-            value: checkout.total_price,
-            currency: checkout.currency
-          });
-        }
-      });
-
-    </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5GRJLS9J');</script>
+<!-- End Google Tag Manager -->
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -336,6 +266,12 @@
 
   <body class="gradient">
 
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GRJLS9J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
     {% if settings.google_body_scripts != blank %}
       {{ settings.google_body_scripts }}
     {% endif %}
