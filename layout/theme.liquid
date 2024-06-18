@@ -57,28 +57,28 @@
           });
         }
 
-        // Evento de Agregar al Carrito
-        document.querySelectorAll('.add-to-cart').forEach(function(button) {
-          button.addEventListener('click', function() {
-            const product = this.dataset.product;
-            sendEventToAPI({
-              name: 'AddToCart',
-              id: product.id,
-              email: product.email, // Actualiza esto según cómo obtengas el email
-              currency: Shopify.currency.active,
-              value: product.price
-            });
-            fbq('track', 'AddToCart', {
-              content_ids: [product.id],
-              content_type: 'product',
-              value: product.price,
-              currency: Shopify.currency.active
-            });
-          });
-        });
+      
 
         // Evento de Inicio de Compra
         if (window.location.pathname === '/checkout') {
+          sendEventToAPI({
+            name: 'InitiateCheckout',
+            id: Shopify.checkout.order_id,
+            email: Shopify.checkout.email,
+            currency: Shopify.checkout.currency,
+            value: Shopify.checkout.total_price
+          });
+          fbq('track', 'InitiateCheckout', {
+            content_ids: [Shopify.checkout.order_id],
+            content_type: 'product',
+            value: Shopify.checkout.total_price,
+            currency: Shopify.checkout.currency
+          });
+        }
+      });
+
+       // Evento de Inicio de Compra
+        if (window.location.pathname.includes('/checkout')) {
           sendEventToAPI({
             name: 'InitiateCheckout',
             id: Shopify.checkout.order_id,
