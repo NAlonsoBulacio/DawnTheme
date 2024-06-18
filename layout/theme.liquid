@@ -1,6 +1,101 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1240426310253192');
+      fbq('track', 'PageView');
+
+      async function sendEventToAPI(event) {
+        const data = {
+          data: [{
+            event_name: event.name,
+            event_time: Math.floor(new Date() / 1000),
+            action_source: 'website',
+            event_id: event.id,
+            event_source_url: window.location.href,
+            user_data: {
+              em: event.email,
+            },
+            custom_data: {
+              currency: event.currency,
+              value: event.value,
+            },
+          }]
+        };
+
+        const response = await fetch('https://graph.facebook.com/v11.0/1240426310253192/events', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer EAAXobxsiKZCIBOwUqaH8bEYBZBaf1wXyZCZCPIIwqlbjTZARomeThDEQ2DFvVx6Tm3TfaF4R2xdOe3fZAUvK7xxCLLyTajdo0Rtgq2BtVM77bXye2y0E7fw3qK1fyGYKfP7f5o5VgkAKBeF3heDA5DIhq7ZArZBiLeF9kVOHbUlmdlMhYbv7PWxZAeHlS1ZC6eTZBr66wZDZD'
+          },
+          body: JSON.stringify(data)
+        });
+        const result = await response.json();
+        console.log(result);
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        // Evento de Compra
+        if (window.Shopify && Shopify.checkout) {
+          const order = Shopify.checkout;
+          sendEventToAPI({
+            name: 'Purchase',
+            id: order.order_id,
+            email: order.email,
+            currency: order.currency,
+            value: order.total_price
+          });
+        }
+
+        // Evento de Agregar al Carrito
+        document.querySelectorAll('.add-to-cart').forEach(function(button) {
+          button.addEventListener('click', function() {
+            const product = this.dataset.product;
+            sendEventToAPI({
+              name: 'AddToCart',
+              id: product.id,
+              email: product.email, // Actualiza esto según cómo obtengas el email
+              currency: Shopify.currency.active,
+              value: product.price
+            });
+            fbq('track', 'AddToCart', {
+              content_ids: [product.id],
+              content_type: 'product',
+              value: product.price,
+              currency: Shopify.currency.active
+            });
+          });
+        });
+
+        // Evento de Inicio de Compra
+        if (window.location.pathname === '/checkout') {
+          sendEventToAPI({
+            name: 'InitiateCheckout',
+            id: Shopify.checkout.order_id,
+            email: Shopify.checkout.email,
+            currency: Shopify.checkout.currency,
+            value: Shopify.checkout.total_price
+          });
+          fbq('track', 'InitiateCheckout', {
+            content_ids: [Shopify.checkout.order_id],
+            content_type: 'product',
+            value: Shopify.checkout.total_price,
+            currency: Shopify.checkout.currency
+          });
+        }
+      });
+    </script>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
