@@ -137,7 +137,7 @@
           "settings": {
             "heading": "",
             "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/419c907d27d94055ad0827518d01a46d.mp4",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/161e15c967a8458d92b0aba3dd8b2927.mp4",
             "description": "",
             "tag_text": ""
           }
@@ -147,18 +147,7 @@
           "settings": {
             "heading": "",
             "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/419c907d27d94055ad0827518d01a46d.mp4",
-            "description": "",
-            "tag_text": ""
-          }
-        },
-        "video_kmtrXc": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "cover_image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/419c907d27d94055ad0827518d01a46d.mp4",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a6c58cd73b9a4bccb41007f9e9265e18.mov",
             "description": "",
             "tag_text": ""
           }
@@ -166,10 +155,8 @@
       },
       "block_order": [
         "video_nKKnBp",
-        "video_DB3kxK",
-        "video_kmtrXc"
+        "video_DB3kxK"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
