@@ -1462,8 +1462,8 @@ a.product__text {
     flex-wrap: nowrap;
   }
   .description__percentage {
-  max-width: 130px;
-  font-size: 12px;
+  max-width: 430px;
+  font-size: 18px;
 }
 
 }
