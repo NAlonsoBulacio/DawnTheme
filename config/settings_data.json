@@ -352,15 +352,21 @@
         "settings": {
         }
       },
-      "13669795325273674392": {
-        "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/app-embed\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+      "8208493610395315515": {
+        "type": "shopify:\/\/apps\/dondy-whatsapp-chat-marketing\/blocks\/app-block\/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "13669795325273674392": {
+        "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/app-embed\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
+        "disabled": true,
         "settings": {
         }
       }
