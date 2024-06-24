@@ -1311,9 +1311,8 @@ a.product__text {
 .left {
   width: 100%;
   flex: 1;
- 
-  padding-right: 10px; 
- padding-left: 10px;
+  padding: 20px;
+  
 }
 
 .right {
