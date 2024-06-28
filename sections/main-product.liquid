@@ -571,20 +571,7 @@
             </div>
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
 
-<div class="additional-logos" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
-  <div class="logo-item">
-    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/Diseno_sin_titulo_44.png?v=1717971151" alt="Envío gratis">
-    <p>Envío gratis</p>
-  </div>
-  <div class="logo-item">
-    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/Diseno_sin_titulo_45.png?v=1717971151" alt="Entrega en 7 días">
-    <p>Devoluciones de 30 días</p>
-  </div>
-  <div class="logo-item">
-    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/Diseno_sin_titulo_43.png?v=1717955434" alt="Devolucion inmediata">
-    <p>Intercambios fáciles</p>
-  </div>
-</div>
+
 
            {% comment %}{%- when 'countdown_timer' -%}
   {% if product.selected_or_first_available_variant.available == true %}
@@ -615,6 +602,20 @@
                 </div>
               </div>
             {%- endif -%}
+                      <div class="additional-logos" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+  <div class="logo-item">
+    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/Diseno_sin_titulo_44.png?v=1717971151" alt="Envío gratis">
+    <p>Envío gratis</p>
+  </div>
+  <div class="logo-item">
+    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/Diseno_sin_titulo_45.png?v=1717971151" alt="Entrega en 7 días">
+    <p>Devoluciones de 30 días</p>
+  </div>
+  <div class="logo-item">
+    <img src="https://cdn.shopify.com/s/files/1/0694/5161/2377/files/Diseno_sin_titulo_43.png?v=1717955434" alt="Devolucion inmediata">
+    <p>Intercambios fáciles</p>
+  </div>
+</div>
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
               {% liquid
