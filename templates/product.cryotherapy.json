@@ -9,23 +9,6 @@
 */
 {
   "sections": {
-    "1719582471e7d2a2e9": {
-      "type": "apps",
-      "blocks": {
-        "releasit_cod_form_button_app_block_rBqjKq": {
-          "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/button-app-block\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "releasit_cod_form_button_app_block_rBqjKq"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -62,22 +45,16 @@
             "picker_type": "button"
           }
         },
-        "cdfc8ada-677c-4465-aaf2-824f42cc7ec2": {
-          "type": "countdown_timer",
+        "releasit_cod_form_button_app_block_RUmHWD": {
+          "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/button-app-block\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
           "settings": {
-            "countdown_timer": true
+            "product": "{{product}}"
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "releasit_cod_form_button_app_block_RUmHWD": {
-          "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/button-app-block\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
-          "settings": {
-            "product": "{{product}}"
           }
         },
         "benefits": {
@@ -121,9 +98,8 @@
         "cb15cf33-90d0-473f-9a6b-5198e4824f19",
         "price",
         "variant_picker",
-        "cdfc8ada-677c-4465-aaf2-824f42cc7ec2",
-        "buy_buttons",
         "releasit_cod_form_button_app_block_RUmHWD",
+        "buy_buttons",
         "benefits",
         "collapsible_tab_YhUFKE",
         "collapsible_tab_nJxFbL",
@@ -405,7 +381,6 @@
     }
   },
   "order": [
-    "1719582471e7d2a2e9",
     "main",
     "testimonial_section_NUfMAT",
     "items_benefits_fjDyjV",
