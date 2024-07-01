@@ -82,6 +82,11 @@
         "padding_bottom": 32
       }
     },
+    "masterclass_section_eHarkw": {
+      "type": "masterclass-section",
+      "settings": {
+      }
+    },
     "165161277157f4ac4b": {
       "type": "featured-collection",
       "disabled": true,
@@ -157,6 +162,7 @@
     "testimonial_section_QgtthW",
     "banner_dr_N3qH7p",
     "16483536545d3c00e6",
+    "masterclass_section_eHarkw",
     "165161277157f4ac4b",
     "16530768150d6ccd38",
     "product-recommendations",
