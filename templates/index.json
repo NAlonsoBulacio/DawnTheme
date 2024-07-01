@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "hero_section_i68rAi": {
@@ -73,11 +82,6 @@
         "padding_bottom": 32
       }
     },
-    "masterclass_section_aiiJzw": {
-      "type": "masterclass-section",
-      "settings": {
-      }
-    },
     "165161277157f4ac4b": {
       "type": "featured-collection",
       "disabled": true,
@@ -108,41 +112,6 @@
         "padding_bottom": 36
       }
     },
-    "165487559918e6b056": {
-      "type": "text-with-images",
-      "blocks": {
-        "1654875599d8199888-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "BioTensor EPS Seafill Anti-arrugas express",
-            "heading_size": "h2"
-          }
-        },
-        "1654875599d8199888-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nuestro <strong>Kit Revitalizante<\/strong>ofrece una solución completa para combatir los signos del envejecimiento. Formulado con ingredientes de <strong>alta calidad<\/strong> y tecnología avanzada, este pack proporciona una piel rejuvenecida, firme y radiante.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "1654875599d8199888-0",
-        "1654875599d8199888-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_1": "shopify:\/\/shop_images\/Bealit-kit-revitalizante.jpg",
-        "image_2": "shopify:\/\/shop_images\/bealit-kit-revitalizante-protector-solar-arena.jpg",
-        "image_enable_lazy_loading": false,
-        "enable_gap": true,
-        "content_alignment": "start",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "16530768150d6ccd38": {
       "type": "custom-liquid",
       "settings": {
@@ -150,41 +119,6 @@
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "1651612972990f06d7": {
-      "type": "newsletter",
-      "blocks": {
-        "16516129725096666d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "DON’T MISS OUT!",
-            "heading_size": "h2"
-          }
-        },
-        "16516129725096666d-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Sign up for email updates and discounts!<\/p>"
-          }
-        },
-        "16516129725096666d-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "16516129725096666d-0",
-        "16516129725096666d-1",
-        "16516129725096666d-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "accent-4",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "product-recommendations": {
@@ -223,11 +157,8 @@
     "testimonial_section_QgtthW",
     "banner_dr_N3qH7p",
     "16483536545d3c00e6",
-    "masterclass_section_aiiJzw",
     "165161277157f4ac4b",
-    "165487559918e6b056",
     "16530768150d6ccd38",
-    "1651612972990f06d7",
     "product-recommendations",
     "custom_faq_NCTPKn"
   ]
