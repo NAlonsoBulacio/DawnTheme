@@ -89,6 +89,12 @@
             "content": "<p>Estamos tan seguros de los resultados de nuestros productos que ofrecemos la garantía Bealit. Si no estás satisfecha con los resultados en 30 días, te devolvemos el dinero. <a href=\"https:\/\/admin.shopify.com\/store\/acad02-59\/themes\/141858767065\/editor?previewPath=%2Fpolicies%2Frefund-policy&category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FColores%3Ftheme_id%3D141858767065%26first_setting_id%3Dcolors_add_to_cart_solid_button_labels\" target=\"_blank\" title=\"https:\/\/admin.shopify.com\/store\/acad02-59\/themes\/141858767065\/editor?previewPath=%2Fpolicies%2Frefund-policy&category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FColores%3Ftheme_id%3D141858767065%26first_setting_id%3Dcolors_add_to_cart_solid_button_labels\"><span style=\"text-decoration:underline\">Haga clic aquí<\/span> <\/a>para obtener más información sobre cómo podemos ayudar.<\/p>",
             "page": ""
           }
+        },
+        "custom_liquid_wFrA9C": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToIngredients()\" class=\"scroll-button\">Ver Ingredientes<\/button>\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -103,7 +109,8 @@
         "benefits",
         "collapsible_tab_YhUFKE",
         "collapsible_tab_nJxFbL",
-        "collapsible_tab_4knH4r"
+        "collapsible_tab_4knH4r",
+        "custom_liquid_wFrA9C"
       ],
       "settings": {
         "enable_sticky_info": true,
