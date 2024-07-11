@@ -93,7 +93,7 @@
         "custom_liquid_wFrA9C": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToIngredients()\" class=\"scroll-button\">Ver Ingredientes<\/button>\n<\/div>"
+            "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToIngredients()\" class=\"scroll-button\">\n    Ver Ingredientes <span class=\"arrow\">≫<\/span>\n  <\/button>\n<\/div>"
           }
         }
       },
