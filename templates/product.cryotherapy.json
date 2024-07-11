@@ -95,6 +95,12 @@
           "settings": {
             "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToIngredients()\" class=\"scroll-button\">\n    Ver Ingredientes <span class=\"arrow\">≫<\/span>\n  <\/button>\n<\/div>"
           }
+        },
+        "custom_liquid_BYdGBk": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -110,7 +116,8 @@
         "collapsible_tab_YhUFKE",
         "collapsible_tab_nJxFbL",
         "collapsible_tab_4knH4r",
-        "custom_liquid_wFrA9C"
+        "custom_liquid_wFrA9C",
+        "custom_liquid_BYdGBk"
       ],
       "settings": {
         "enable_sticky_info": true,
