@@ -3588,3 +3588,59 @@ details-disclosure > details {
   }
 
   /* Estilos de tarjetas de ingredientes */
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify Page</title>
+  <style>
+    .scroll-button {
+      background: none;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .scroll-button .arrow {
+      font-size: 20px;
+      margin-left: 10px;
+      transition: transform 0.3s;
+    }
+
+    .scroll-button:hover .arrow {
+      transform: translateX(5px);
+    }
+  </style>
+</head>
+<body>
+  <!-- Sección de Ingredientes -->
+  <div id="ingredients-section" class="ingredients__section__">
+    <!-- Contenido de ingredientes aquí -->
+  </div>
+
+  <!-- Otra sección con el botón de desplazamiento -->
+  <div class="other-section">
+    <button onclick="scrollToIngredients()" class="scroll-button">
+      Ver Ingredientes <span class="arrow">≫</span>
+    </button>
+  </div>
+
+  <!-- Script de desplazamiento suave -->
+  <script>
+    function scrollToIngredients() {
+      document.getElementById('ingredients-section').scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</body>
+</html>
