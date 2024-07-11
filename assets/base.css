@@ -3596,6 +3596,7 @@ details-disclosure > details {
   border: none;
   font-size: 16px;
   font-weight: regular;
+      font-family: var(--font-body-family);
   color: #000;
   cursor: pointer;
   display: flex;
