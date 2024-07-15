@@ -99,7 +99,7 @@
         "custom_liquid_BYdGBk": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToFaq()\" class=\"scroll-button\">\n    Ver FAQ <span class=\"arrow\">≫<\/span>\n  <\/button>\n<\/div>"
+            "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToFaq()\" class=\"scroll-button\">\n    Ver Preguntas Frecuentes<span class=\"arrow\">≫<\/span>\n  <\/button>\n<\/div>"
           }
         }
       },
