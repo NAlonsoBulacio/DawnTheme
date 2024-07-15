@@ -3608,6 +3608,7 @@ color: rgba(var(--color-foreground), .95);
   font-size: 20px;
   margin-left: 10px;
   transition: transform 0.3s;
+  color: #018FE1;
 }
 
 .scroll-button:hover .arrow {
