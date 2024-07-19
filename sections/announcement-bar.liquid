@@ -1,22 +1,48 @@
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
-{% if template == 'product.cryotherapy' %}
-  <div class="timer_countdown_bar">
-    <div class="timer_countdown hidden" id="countdown">
-      <span class="timer_label">La oferta termina pronto. ¡Date prisa!</span>
-      <div class="timer_set">
-        <span class="time days">00</span>
-        <span class="dots_span">:</span>
-        <span class="time hours">00</span>
-        <span class="dots_span">:</span>
-        <span class="time minutes">10</span>
-        <span class="dots_span">:</span>
-        <span class="time second">00</span>
-      </div>
-    </div>
-  </div>
-{% endif %}
+      {% if template == 'product.cryotherapy' %}
+        <div class="timer_countdown_bar">
+          <div class="timer_countdown" id="countdown">
+            <span class="timer_label">La oferta termina pronto. ¡Date prisa!</span>
+            <div class="timer_set">
+              <span class="time days">00</span>
+              <span class="dots_span">:</span>
+              <span class="time hours">00</span>
+              <span class="dots_span">:</span>
+              <span class="time minutes">10</span>
+              <span class="dots_span">:</span>
+              <span class="time second">00</span>
+            </div>
+          </div>
+        </div>
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const countdownTimer = document.getElementById('countdown');
+            let time = 10 * 60; // 10 minutos en segundos
+
+            const updateCountdown = () => {
+                const minutes = Math.floor(time / 60);
+                let seconds = time % 60;
+
+                seconds = seconds < 10 ? '0' + seconds : seconds;
+                countdownTimer.querySelector('.time.minutes').textContent = minutes;
+                countdownTimer.querySelector('.time.second').textContent = seconds;
+                time--;
+
+                if (time < 0) {
+                    clearInterval(timer);
+                    countdownTimer.querySelector('.timer_label').textContent = 'La oferta ha terminado.';
+                }
+            };
+
+            // Inicia el temporizador
+            countdownTimer.classList.remove('hidden');
+            updateCountdown(); // Actualizar inmediatamente para evitar retraso
+            const timer = setInterval(updateCountdown, 1000);
+        });
+        </script>
+      {% endif %}
       <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
@@ -24,9 +50,6 @@
           {%- endif -%}
               <p class="announcement-bar__message {{ block.settings.heading_size }}">
                 {{ block.settings.text | escape }}
-                {% comment %} {%- if block.settings.link != blank -%}
-                  {% render 'icon-arrow' %}
-                {%- endif -%} {% endcomment %}
               </p>
           {%- if block.settings.link != blank -%}
             </a>
@@ -35,104 +58,3 @@
       </div>
   {%- endcase -%}
 {%- endfor -%}
-
-{% schema %}
-{
-  "name": "t:sections.announcement-bar.name",
-  "max_blocks": 12,
-  "blocks": [
-    {
-      "type": "announcement",
-      "name": "t:sections.announcement-bar.blocks.announcement.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Welcome to our store",
-          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
-        },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h5",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h4",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h3",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h5",
-          "label": "t:sections.all.heading_size.label"
-        },
-        {
-          "type": "select",
-          "id": "color_scheme",
-          "options": [
-            {
-              "value": "accent-1",
-              "label": "t:sections.all.colors.accent_1.label"
-            },
-            {
-              "value": "accent-2",
-              "label": "t:sections.all.colors.accent_2.label"
-            },
-            {
-              "value": "accent-3",
-              "label": "t:sections.all.colors.accent_3.label"
-            },
-            {
-              "value": "accent-4",
-              "label": "t:sections.all.colors.accent_4.label"
-            },
-            {
-              "value": "accent-5",
-              "label": "t:sections.all.colors.accent_5.label"
-            },
-            {
-              "value": "accent-6",
-              "label": "t:sections.all.colors.accent_6.label"
-            },
-            {
-              "value": "accent-7",
-              "label": "t:sections.all.colors.accent_7.label"
-            },
-            {
-              "value": "background-1",
-              "label": "t:sections.all.colors.background_1.label"
-            },
-            {
-              "value": "background-2",
-              "label": "t:sections.all.colors.background_2.label"
-            },
-            {
-              "value": "inverse",
-              "label": "t:sections.all.colors.inverse.label"
-            }
-          ],
-          "default": "accent-1",
-          "label": "t:sections.all.colors.label"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
-        }
-      ]
-    }
-  ],
-  "default": {
-    "blocks": [
-      {
-        "type": "announcement"
-      }
-    ]
-  }
-}
-{% endschema %}
