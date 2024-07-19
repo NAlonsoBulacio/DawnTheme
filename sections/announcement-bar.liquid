@@ -1,7 +1,7 @@
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
-      {% if template == 'product.cryotherapy' %}
+      {% if template == 'product.cryotherapy' or template == 'product.esencial' %}
         <div class="timer_countdown_bar">
           <div class="timer_countdown" id="countdown-bar">
             <span class="timer_label">La oferta termina pronto. ¡Date prisa!</span>
@@ -12,7 +12,7 @@
               <span class="dots_span">:</span>
               <span class="time minutes">10</span>
               <span class="dots_span">:</span>
-              <span class="time second">00</span>
+              <span class="time seconds">00</span>
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@
 
                 seconds = seconds < 10 ? '0' + seconds : seconds;
                 countdownTimer.querySelector('.time.minutes').textContent = minutes;
-                countdownTimer.querySelector('.time.second').textContent = seconds;
+                countdownTimer.querySelector('.time.seconds').textContent = seconds;
                 time--;
 
                 if (time < 0) {
@@ -58,6 +58,7 @@
       </div>
   {%- endcase -%}
 {%- endfor -%}
+
 
 
 {% schema %}
