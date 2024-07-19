@@ -1,0 +1,413 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "0203eefc-c525-470b-a804-652efe253115": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "judge_me_reviews_preview_badge_iBPizh": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "cb15cf33-90d0-473f-9a6b-5198e4824f19": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "releasit_cod_form_button_app_block_RUmHWD": {
+          "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/button-app-block\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "benefits": {
+          "type": "benefits",
+          "settings": {
+            "benefits": "{{ product.metafields.my_fields.benefits }}"
+          }
+        },
+        "collapsible_tab_YhUFKE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "¿Cómo se utiliza?",
+            "icon": "star",
+            "content": "<p>{{ product.metafields.custom.instruction | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_nJxFbL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Envíos",
+            "icon": "truck",
+            "content": "<p>Tu Paquete llegará en un plazo de 2 a 3 días a través de nuestro envío express.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_4knH4r": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": " Política de Reembolso",
+            "icon": "return",
+            "content": "<p>Estamos tan seguros de los resultados de nuestros productos que ofrecemos la garantía Bealit. Si no estás satisfecha con los resultados en 30 días, te devolvemos el dinero. <a href=\"https:\/\/admin.shopify.com\/store\/acad02-59\/themes\/141858767065\/editor?previewPath=%2Fpolicies%2Frefund-policy&category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FColores%3Ftheme_id%3D141858767065%26first_setting_id%3Dcolors_add_to_cart_solid_button_labels\" target=\"_blank\" title=\"https:\/\/admin.shopify.com\/store\/acad02-59\/themes\/141858767065\/editor?previewPath=%2Fpolicies%2Frefund-policy&category=gid%3A%2F%2Fshopify%2FOnlineStoreThemeSettingsCategory%2FColores%3Ftheme_id%3D141858767065%26first_setting_id%3Dcolors_add_to_cart_solid_button_labels\"><span style=\"text-decoration:underline\">Haga clic aquí<\/span> <\/a>para obtener más información sobre cómo podemos ayudar.<\/p>",
+            "page": ""
+          }
+        },
+        "custom_liquid_wFrA9C": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToIngredients()\" class=\"scroll-button\">\n    Ver Ingredientes <span class=\"arrow\">≫<\/span>\n  <\/button>\n<\/div>"
+          }
+        },
+        "custom_liquid_BYdGBk": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToFaq()\" class=\"scroll-button\">\n    Ver Preguntas Frecuentes<span class=\"arrow\">≫<\/span>\n  <\/button>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "0203eefc-c525-470b-a804-652efe253115",
+        "judge_me_reviews_preview_badge_iBPizh",
+        "title",
+        "cb15cf33-90d0-473f-9a6b-5198e4824f19",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "releasit_cod_form_button_app_block_RUmHWD",
+        "benefits",
+        "collapsible_tab_YhUFKE",
+        "collapsible_tab_nJxFbL",
+        "collapsible_tab_4knH4r",
+        "custom_liquid_wFrA9C",
+        "custom_liquid_BYdGBk"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "security_logos": true,
+        "enable_non_accessory_images": true,
+        "padding_top": 36,
+        "padding_bottom": 56
+      }
+    },
+    "testimonial_section_NUfMAT": {
+      "type": "testimonial-section",
+      "settings": {
+        "image_url": ""
+      }
+    },
+    "items_benefits_fjDyjV": {
+      "type": "items-benefits",
+      "settings": {
+      }
+    },
+    "videos_list_JtjqVg": {
+      "type": "videos-list",
+      "blocks": {
+        "video_nKKnBp": {
+          "type": "video",
+          "settings": {
+            "heading": "",
+            "cover_image": "shopify:\/\/shop_images\/biotensor2.png",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/161e15c967a8458d92b0aba3dd8b2927.mp4",
+            "description": "",
+            "tag_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_nKKnBp"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "swipe_on_desktop": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_in_PBG6DP": {
+      "type": "featured-in",
+      "blocks": {
+        "column_i3FfJF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Amy_s_Before_After_Using_KOAR_Skin_Therapy.jpg",
+            "title": "María G.",
+            "text": "<h5><em>\"Antes de usar el kit Revitalizante, mi piel siempre se veía opaca y sin brillo. Después de unas semanas, noté una transformación increíble. Mi rostro brilla con una luminosidad natural, y las líneas finas se han suavizado notablemente. Mis ojeras casi han desaparecido y mis ojos se ven más descansados que nunca. ¡Recomiendo este kit a todas mis amigas!\"<\/em><\/h5>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_znbXHy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-04_at_18.13.17.jpg",
+            "title": "Laura C.",
+            "text": "<h5><em>\"He probado numerosos productos para el cuidado de la piel, pero ninguno ha funcionado como este kit. Mi piel es sensible y siempre luché contra la sequedad y la irritación. Desde que empecé a usar el kit, mi piel está más hidratada y suave. Estoy realmente impresionada con los resultados.\"<br\/><\/em><\/h5>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_c37T7i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1307049b-8c2d-456a-af49-41048bfe16d8.jpg",
+            "title": "Ana R.",
+            "text": "<h5><em>\"El kit es un cambio de vida. Mi piel estaba apagada y sufría de manchas irregulares. Después de un mes de uso, mi tono de piel se ha uniformado y las manchas han disminuido considerablemente. Ahora, mi piel se ve y se siente más saludable que nunca. ¡Me encanta!\"<\/em><\/h5>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LwwwaY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/192bf0ac-5cc2-4f74-b9ad-fb43ae7520fd.jpg",
+            "title": "Carmen L.",
+            "text": "<h5><em>\"He recibido muchos cumplidos sobre mi piel desde que uso a diario el kit. Antes, siempre necesitaba usar maquillaje para cubrir imperfecciones, pero ahora me siento confiada sin él. La textura de mi piel ha mejorado, se siente más lisa y los poros se han reducido. ¡Vale la pena la inversión!<\/em><\/h5>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_i3FfJF",
+        "column_znbXHy",
+        "column_c37T7i",
+        "column_LwwwaY"
+      ],
+      "settings": {
+        "title": "Antes y Despues",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "bealit_unique_4WKzUq": {
+      "type": "bealit-unique",
+      "settings": {
+      }
+    },
+    "featured_in_Y6hVw3": {
+      "type": "featured-in",
+      "blocks": {
+        "column_iJBJfV": {
+          "type": "column",
+          "settings": {
+            "title": "Paso 1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yUPHRF": {
+          "type": "column",
+          "settings": {
+            "title": "Paso 2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HdeJE7": {
+          "type": "column",
+          "settings": {
+            "title": "Paso 3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gqf9Cr": {
+          "type": "column",
+          "settings": {
+            "title": "Paso 4",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_iJBJfV",
+        "column_yUPHRF",
+        "column_HdeJE7",
+        "column_gqf9Cr"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Como se usa Bealit",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "video_NEmDTU": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Foto-RoC-2020-2.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=pNPqQPrcSIo",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "accent-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner_dr_Be3wKr": {
+      "type": "banner-dr",
+      "settings": {
+      }
+    },
+    "main_ingredients_GyAz7r": {
+      "type": "main-ingredients",
+      "disabled": true,
+      "settings": {
+        "title": "Main Ingredients",
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_view_more": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "ingredients_7qQDNL": {
+      "type": "ingredients",
+      "settings": {
+      }
+    },
+    "1716328117764f6e46": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_9qPBjF": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_9qPBjF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16581734153909d24a": {
+      "type": "custom-faq",
+      "settings": {
+        "custom_liquid": "{{ product.metafields.my_fields.faq }}",
+        "color_scheme": "accent-7",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "testimonial_section_NUfMAT",
+    "items_benefits_fjDyjV",
+    "videos_list_JtjqVg",
+    "featured_in_PBG6DP",
+    "bealit_unique_4WKzUq",
+    "featured_in_Y6hVw3",
+    "video_NEmDTU",
+    "banner_dr_Be3wKr",
+    "main_ingredients_GyAz7r",
+    "product-recommendations",
+    "ingredients_7qQDNL",
+    "1716328117764f6e46",
+    "16581734153909d24a"
+  ]
+}
