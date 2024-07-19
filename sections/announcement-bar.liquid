@@ -3,7 +3,7 @@
     {%- when 'announcement' -%}
       {% if template == 'product.cryotherapy' %}
         <div class="timer_countdown_bar">
-          <div class="timer_countdown" id="countdown">
+          <div class="timer_countdown" id="countdown-bar">
             <span class="timer_label">La oferta termina pronto. ¡Date prisa!</span>
             <div class="timer_set">
               <span class="time days">00</span>
@@ -18,7 +18,7 @@
         </div>
         <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const countdownTimer = document.getElementById('countdown');
+            const countdownTimer = document.getElementById('countdown-bar');
             let time = 10 * 60; // 10 minutos en segundos
 
             const updateCountdown = () => {
