@@ -101,6 +101,12 @@
           "settings": {
             "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToFaq()\" class=\"scroll-button\">\n    Ver Preguntas Frecuentes<span class=\"arrow\">≫<\/span>\n  <\/button>\n<\/div>"
           }
+        },
+        "custom_liquid_xyFafW": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"other-section\">\n  <button onclick=\"scrollToReviews()\" class=\"scroll-button\">\n    Ver Reseñas<span class=\"arrow\">≫<\/span>"
+          }
         }
       },
       "block_order": [
@@ -117,7 +123,8 @@
         "collapsible_tab_nJxFbL",
         "collapsible_tab_4knH4r",
         "custom_liquid_wFrA9C",
-        "custom_liquid_BYdGBk"
+        "custom_liquid_BYdGBk",
+        "custom_liquid_xyFafW"
       ],
       "settings": {
         "enable_sticky_info": true,
