@@ -48,12 +48,11 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "releasit_cod_form_button_app_block_RUmHWD": {
           "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/button-app-block\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
-          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
