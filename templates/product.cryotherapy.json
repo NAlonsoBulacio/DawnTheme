@@ -12,10 +12,11 @@
     "video_3tFgxi": {
       "type": "video",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
+        "heading": "Descubre el Método Científicamente Probado de 5 Minutos para Revitalizar tu Piel en menos de 90 días sin cirugía. Garantizado en una masterclass Exclusiva de 10 Minutos",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/videopreview.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=oku3sgwfhMI&t=5s",
+        "description": "video-youtube",
         "full_width": false,
         "color_scheme": "background-1",
         "padding_top": 36,
