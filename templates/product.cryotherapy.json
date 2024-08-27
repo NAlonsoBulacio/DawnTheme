@@ -176,10 +176,32 @@
             "description": "",
             "tag_text": ""
           }
+        },
+        "video_hMxRCX": {
+          "type": "video",
+          "settings": {
+            "heading": "",
+            "cover_image": "shopify:\/\/shop_images\/influencer_0bd269aa-1892-48c7-b7ee-fffde278fdf0.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5a1beb6e96ba4dc1876c570ff80cf617.mp4",
+            "description": "",
+            "tag_text": ""
+          }
+        },
+        "video_CPXM7F": {
+          "type": "video",
+          "settings": {
+            "heading": "",
+            "cover_image": "shopify:\/\/shop_images\/influencer-video.jpg",
+            "video_url": "",
+            "description": "",
+            "tag_text": ""
+          }
         }
       },
       "block_order": [
-        "video_nKKnBp"
+        "video_nKKnBp",
+        "video_hMxRCX",
+        "video_CPXM7F"
       ],
       "settings": {
         "title": "",
