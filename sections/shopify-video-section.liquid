@@ -5,7 +5,6 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-
     text-align: center; /* Centrar el contenido */
   }
 
@@ -29,7 +28,13 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
     .title-wrapper {
-      font-size: 48px; /* Tamaño del texto más grande para pantallas grandes */
+      font-size: 48px; /* Tamaño del texto más grande para pantallas medianas */
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .title-wrapper {
+      font-size: 60px; /* Tamaño del texto más grande para pantallas grandes */
     }
   }
 {%- endstyle -%}
