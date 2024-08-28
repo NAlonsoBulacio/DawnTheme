@@ -5,12 +5,30 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    background-color: #0094db; /* Color azul brillante */
+    text-align: center; /* Centrar el contenido */
+  }
+
+  .title-wrapper {
+    color: white; /* Texto blanco */
+    font-size: 36px; /* Tamaño grande del texto */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Convertir a mayúsculas */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+  }
+
+  .video-section__media {
+    max-width: 800px; /* Ancho máximo del video */
+    margin: 0 auto; /* Centrar el video */
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    .title-wrapper {
+      font-size: 48px; /* Tamaño del texto más grande para pantallas grandes */
     }
   }
 {%- endstyle -%}
@@ -67,7 +85,7 @@
     {
       "type": "text",
       "id": "heading",
-      "default": "Video",
+      "default": "DESCUBRE EL MÉTODO CIENTÍFICAMENTE PROBADO DE 5 MINUTOS PARA REVITALIZAR TU PIEL EN MENOS DE 90 DÍAS SIN CIRUGÍA. GARANTIZADO",
       "label": "Heading"
     },
     {
@@ -192,5 +210,3 @@
   ]
 }
 {% endschema %}
-
-
